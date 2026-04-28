@@ -1,0 +1,23 @@
+# 手（整形外科 診察テンプレート Oのみ）
+
+- 視診：Skin, Scar, Atrophy, Thenar/Hypothenar/IO, Deformity（SN/BH/UD/Ape/Claw/Drop）, Alignment
+- Tenderness：- / +
+- Swelling：- / +
+- Thumb ROM：RadAbd 60/60, UlnAdd 0/0, PalAbd 90/90, PalAdd 0/0, MCP Flex 60/60, MCP Ext 10/10, IP Flex 80/80, IP Ext 10/10
+- Finger ROM：MCP Flex 90/90, MCP Ext 45/45, PIP Flex 100/100, PIP Ext 0/0, DIP Flex 80/80, DIP Ext 0/0, Abd 20/20, Add 0/0
+- 機能：Grip, Pinch, TAM, TPD
+- 感覚：Ten test-/+ SW monofilament（緑/青/紫/赤）
+- 神経：Median/Ulnar/Radial
+- 特殊テスト（疑う疾患に応じて選択）
+  - 尺骨神経：Froment-/- Wartenberg sign-/-（小指外転）Tinel（cubital/Guyon）-/-
+  - 正中神経：Tinel（carpal tunnel）-/- Phalen-/-（必要時）
+  - CMC OA：CMC grind-/-（必要時）
+  - De Quervain：Eichhoff-/-（必要時）
+  - 屈筋腱鞘炎/感染：Kanavel-/-（4徴）Squeeze-/-
+  - 側副靱帯：UCL（thumb MCP）stress-/-（必要時）
+  - 槌指/ボタン穴：Elson-/-（central slip）
+  - 指IP：IP test-/-（必要時）
+- ＜略語＞
+  - SN: Swan-neck, BH: Boutonniere, UD: Ulnar drift, Ape: Ape hand, Claw: Claw hand, Drop: Drop finger/hand
+  - MCP: Metacarpophalangeal, PIP: Proximal interphalangeal, DIP: Distal interphalangeal, IP: Interphalangeal
+  - TAM: Total active motion, TPD: Tip-palm distance

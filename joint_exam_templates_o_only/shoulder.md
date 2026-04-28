@@ -1,0 +1,21 @@
+# 肩関節（整形外科 診察テンプレート Oのみ）
+
+- 視診/動作：SH rhythm, Scapula winging, SSD, Atrophy（SSP/ISP/Del/Trap）, Deformity, Swelling, Popeye
+- Tenderness：SCJ-/+ ACJ-/+ CP-/+ Acromion-/+ GT-/+ LT-/+ BG-/+
+- Shoulder ROM：Flex 180/180, Ext 50/50, Abd 180/180, Add 20/20, ER 60/60, IR 80/80, HF 135/135, HE 30/30
+- MMT：SSP 5/5, ISP 5/5, Subscap 5/5, Del 5/5
+- 特殊テスト（疑う疾患に応じて選択）
+  - インピンジメント/滑液包炎：PA-/- Neer-/- Hawkins-/-
+  - 腱板：DA-/- EC-/- LS-/- LO-/-
+  - 上腕二頭筋長頭腱：Speed-/- Yergason-/-
+  - 凍結肩/拘縮：ER制限-/+ End feel（firm/capsular）-/+
+  - AC関節：Cross-/-
+  - 前方不安定性：App-/- Relocation-/- Sulcus-/-
+  - 後方不安定性：Jerk-/- Posterior drawer-/-
+  - SC関節：SC stress-/-
+  - 関節唇/その他：Clunk-/- O'Brien-/- Crank-/-
+- ＜略語＞
+  - SH rhythm: Scapulohumeral rhythm, SSD: Scapula spine distance
+  - SSP: Supraspinatus, ISP: Infraspinatus, Subscap: Subscapularis, Del: Deltoid
+  - SCJ: Sternoclavicular joint, ACJ: Acromioclavicular joint, CP: Coracoid process, GT: Greater tuberosity, LT: Lesser tuberosity, BG: Bicipital groove
+  - PA: Painful arc, DA: Drop arm, EC: Empty can, LS: Lag sign, LO: Lift-off

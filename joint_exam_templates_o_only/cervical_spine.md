@@ -1,0 +1,23 @@
+# 頸椎（整形外科 診察テンプレート Oのみ）
+
+- 歩容：Spastic+/-, Wide-based+/-, Clumsy gait+/-, Steppage-like+/-, Tandem gait可/不可
+- 筋萎縮：なし/あり（　　　　　　）
+- 皮疹/色調/発毛異常：-/+（神経線維腫症など）
+- Tenderness：棘突起-/+、傍脊柱筋-/+
+- C-spine ROM：Flex 60/60, Ext 50/50, Rot 60/60, LB 50/50
+- Grip（kg）：R/L
+- MMT：Del 5/5, Bic 5/5, Tri 5/5, WE 5/5, WF 5/5, IO 5/5
+- DTR：BTR+/+, BRR+/+, TTR+/+
+- 病的反射：Hoffmann+/+, Wartenberg+/+, Tromner+/+, clonus（足-/-, 膝-/-）
+- 神経学的テスト：S-/- J-/- Lhermitte-/- Romberg-（10 sec 21/21）FES 0
+- 特殊テスト
+  - 神経根症：Distraction-/- ULTT1-/-（median） S-/- J-/-
+  - 神経根症補助：Shoulder abduction relief sign-/-
+  - 脊髄症/錐体路：Hoffmann+/+ Tromner+/+　Wartenberg+/+ clonus（足-/-, 膝-/-）
+  - 平衡/後索：Romberg-/- Tandem gait可/不可
+  - その他：Lhermitte-/-（前屈）
+- ＜略語＞
+  - Rot: Rotation, LB: Lateral bending, Del: Deltoid, Bic: Biceps brachii, Tri: Triceps brachii
+  - WE: Wrist extension, WF: Wrist flexion, IO: Interossei
+  - DTR: Deep tendon reflex, BTR: Biceps tendon reflex, BRR: Brachioradialis reflex, TTR: Triceps tendon reflex
+  - S: Spurling, J: Jackson, ULTT: Upper limb tension test
