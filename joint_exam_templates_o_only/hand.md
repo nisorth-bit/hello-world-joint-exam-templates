@@ -11,8 +11,8 @@
 - 特殊テスト（疑う疾患に応じて選択）
   - 尺骨神経：Froment-/- Wartenberg sign-/-（小指外転）Tinel（cubital/Guyon）-/-
   - 正中神経：Tinel（carpal tunnel）-/- Phalen-/-（必要時）
-  - CMC OA：CMC grind-/-（必要時）
-  - De Quervain：Eichhoff-/-（必要時）
+  - CMC OA：CMC grind-/-（必要時）伸展内転テスト
+  - De Quervain：Finkelstein-/-（Eichhoff より特異度高・偽陽性少）
   - 屈筋腱鞘炎/感染：Kanavel-/-（4徴）Squeeze-/-
   - 側副靱帯：UCL（thumb MCP）stress-/-（必要時）
   - 槌指/ボタン穴：Elson-/-（central slip）

@@ -7,7 +7,7 @@
 - 追加身体所見：Tenodesis effect正常/異常、one finger test（部位特定）
 - 特殊テスト（疑う疾患に応じて選択）
   - CTS：Phalen-/- Tinel（carpal tunnel）-/- CTC（Durkan）-/-
-  - De Quervain：Eichhoff-/- Finkelstein-/-（必要時）
+  - De Quervain：Finkelstein-/-（Eichhoff より特異度高・偽陽性少）
   - TFCC/尺側手関節痛：Ulnocarpal stress-/- Fovea sign-/- Press test-/-
   - DRUJ：Piano key-/- DRUJ ballottement-/-
   - SL損傷：Watson（scaphoid shift）-/-
