@@ -136,7 +136,7 @@
   - 正中神経：Tinel（carpal tunnel）-/- Phalen-/-（必要時）
   - CMC OA：Extension-/- Adduction-/- Lever-/- Pressure-shear-/-
   - De Quervain：Finkelstein-/-
-  - 屈筋腱鞘炎/感染：Kanavel-/-（4徴）Squeeze-/-
+  - 屈筋腱鞘炎/感染：Kanavel-/-（①紡錘状腫脹 ②屈曲位 ③腱鞘に沿った圧痛 ④伸展時痛）Squeeze-/-
   - 側副靱帯：UCL（thumb MCP）stress-/-（必要時）
   - 槌指/ボタン穴：Elson-/-（central slip）
   - 指IP：IP test-/-（必要時）
