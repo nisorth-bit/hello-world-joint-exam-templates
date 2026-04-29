@@ -1,6 +1,7 @@
 # 整形外科 診察テンプレート（Oのみ）
 
 ## 頸椎
+
 - 歩容：Spastic+/-, Wide-based+/-, Clumsy gait+/-, Steppage-like+/-, Tandem gait可/不可
 - 筋萎縮：なし/あり（　　　　　　）
 - 皮疹/色調/発毛異常：-/+（神経線維腫症など）
@@ -11,12 +12,12 @@
 - DTR：BTR+/+, BRR+/+, TTR+/+
 - 病的反射：Hoffmann+/+, Wartenberg+/+, Tromner+/+, clonus（足-/-, 膝-/-）
 - 神経学的テスト：S-/- J-/- Lhermitte-/- Romberg-（10 sec 21/21）FES 0
-- 特殊テスト（疑う疾患に応じて選択）
-  - 神経根症：Distraction-/- ULTT1-/-（median） Spurling（S）-/- Jackson（J）-/-
+- 特殊テスト
+  - 神経根症：Distraction-/- ULTT1-/-（median） S-/- J-/-
   - 神経根症補助：Shoulder abduction relief sign-/-
-  - 脊髄症/錐体路：Hoffmann+/+ Tromner+/+（必要時）Wartenberg+/+ clonus（足-/-, 膝-/-）
+  - 脊髄症/錐体路：Hoffmann+/+ Tromner+/+　Wartenberg+/+ clonus（足-/-, 膝-/-）
   - 平衡/後索：Romberg-/- Tandem gait可/不可
-  - その他：Lhermitte-/-（前屈で誘発）
+  - その他：Lhermitte-/-（前屈）
 - ＜略語＞
   - Rot: Rotation, LB: Lateral bending, Del: Deltoid, Bic: Biceps brachii, Tri: Triceps brachii
   - WE: Wrist extension, WF: Wrist flexion, IO: Interossei
@@ -24,27 +25,28 @@
   - S: Spurling, J: Jackson, ULTT: Upper limb tension test
 
 ## 胸椎
-- 後弯-/+、側弯-/+、皮膚所見-/+
-- Tenderness：棘突起-/+、傍脊柱筋-/+
-- 叩打痛：-/+（棘突起）
-- T-spine ROM：Flex 45/45, Ext 30/30, Rot 40/40, LB 50/50
+
+- 後弯-、側弯-、皮膚所見-
+- Tenderness：棘突起-、傍脊柱筋-
+- 叩打痛：棘突起-
+- ROM：Flex 45/45, Ext 30/30, Rot 40/40, LB 50/50
 - Chest expansion：- / +（第4肋間で呼吸差<3cmなら+）
 - Schober：- / +
 - Beevor：- / +
 - 感覚：正常/低下（　　　　　　）
 - MMT：I/P 5/5
 - 特殊テスト（疑う疾患に応じて選択）
-  - 側弯：Adam’s forward bend-/-（Rib hump-/-）
+  - 側弯：Adam's forward bend-/-（Rib hump-/-）
   - 強直性脊椎炎：Chest expansion-/- Schober-/-（参考）
   - 神経/脊髄：Romberg-/-（必要時）
 - ＜略語＞
   - Rot: Rotation, LB: Lateral bending, I/P: Iliopsoas
 
 ## 腰椎
-- 姿勢：正常/異常（　　　　　　）
-- 歩容：正常/異常（　　　　　　）
-- 筋萎縮：なし/あり（　　　　　　）
-- Tenderness：棘突起-/+、傍脊柱筋-/+、SIJ-/+
+
+- 姿勢：正常/異常
+- 歩容：正常/異常
+- 筋萎縮：なし/+、傍脊柱筋-/+、SIJ-/+
 - L-spine ROM：Flex 45/45, Ext 30/30, Rot 40/40, LB 50/50
 - MMT：I/P 5/5, Quad 5/5, Ham 5/5, TA 5/5, EHL 5/5, FHL 5/5, Pero 5/5
 - 感覚：正常/低下（　　　　　　）
@@ -60,6 +62,7 @@
   - PTR: Patellar tendon reflex, ATR: Achilles tendon reflex
 
 ## 肩関節
+
 - 視診/動作：SH rhythm, Scapula winging, SSD, Atrophy（SSP/ISP/Del/Trap）, Deformity, Swelling, Popeye
 - Tenderness：SCJ-/+ ACJ-/+ CP-/+ Acromion-/+ GT-/+ LT-/+ BG-/+
 - Shoulder ROM：Flex 180/180, Ext 50/50, Abd 180/180, Add 20/20, ER 60/60, IR 80/80, HF 135/135, HE 30/30
@@ -81,13 +84,14 @@
   - PA: Painful arc, DA: Drop arm, EC: Empty can, LS: Lag sign, LO: Lift-off
 
 ## 肘関節
+
 - 視診：Carrying angle, Varus/Valgus, Swelling, Heat, Atrophy, Bursa, Ulnar subluxation
 - Tenderness：ME-/+ LE-/+ UCL-/+ RH-/+ Olecranon-/+ Cubital-/+ Radial tunnel-/+
 - Elbow ROM：Flex 145/145, Ext 5/5, Pro 90/90, Sup 90/90
 - MMT：Bic 5/5, Tri 5/5, WE 5/5, WF 5/5, IO 5/5
 - Tinel：- / +
 - 特殊テスト（疑う疾患に応じて選択）
-  - 内側上顆炎：Golfer’s elbow test-/-（抵抗手関節屈曲/回内）
+  - 内側上顆炎：Golfer's elbow test-/-（抵抗手関節屈曲/回内）
   - 外側上顆炎：Cozen（Thomsen）-/- Mill-/- Maudsley（中指伸展）-/- Chair-/-
   - UCL損傷：Valgus stress-/- Moving valgus-/- Milking-/-（必要時）
   - 外側不安定/PLRI：PLRI（Pivot shift）-/- Chair push-up-/- Table-top relocation-/-
@@ -100,6 +104,7 @@
   - WEtest: Wrist extension test, HERT: Hyper external rotation test
 
 ## 手関節
+
 - 視診：Swelling-/+ Redness-/+ Deformity-/+
 - Tenderness：RS-/+ Snuff-/+ Lister-/+ Scaphoid-/+ US-/+ Pisiform-/+ TFCC-/+ ECU-/+
 - Wrist ROM：Flex 90/90, Ext 70/70, RadDev 25/25, UlnDev 55/55
@@ -118,6 +123,7 @@
   - CTS: Carpal tunnel syndrome, CTC: Carpal tunnel compression test, DRUJ: Distal radioulnar joint, SL: Scapholunate
 
 ## 手
+
 - 視診：Skin, Scar, Atrophy, Thenar/Hypothenar/IO, Deformity（SN/BH/UD/Ape/Claw/Drop）, Alignment
 - Tenderness：- / +
 - Swelling：- / +
@@ -141,6 +147,7 @@
   - TAM: Total active motion, TPD: Tip-palm distance
 
 ## 股関節
+
 - 視診：Gait, Pelvic tilt, LLD, Atrophy
 - Tenderness：Scarpa-/+ ASIS-/+ IC-/+ GT-/+ Pubis-/+ SIJ-/+ IT-/+ Sciatic-/+
 - Hip ROM：Flex 125/125, Ext 15/15, Abd 45/45, Add 20/20, ER 45/45, IR 45/45
@@ -159,6 +166,7 @@
   - FAI: Femoroacetabular impingement
 
 ## 膝関節
+
 - 視診：Gait, Alignment, Swelling, Redness, Quad atrophy, Patella, J-sign
 - Tenderness：MJL-/+ LJL-/+ PF-/+ PT-/+ TT-/+ Pes-/+ MFC-/+ LFC-/+ FH-/+ Popliteal-/+
 - Knee ROM：Flex 130/130, Ext 0/0
@@ -177,6 +185,7 @@
   - AD: Anterior drawer, PD: Posterior drawer, ICD: Intercondylar distance, IMD: Intermalleolar distance, HHD: Heel height difference
 
 ## 足関節・足部
+
 - 視診：Barefoot, Swelling, Redness, Deformity, Valgus/Varus/Flat/Cavus/HV/Claw, Arch, Gait
 - Tenderness：MM-/+ LM-/+ ATFL-/+ CFL-/+ Deltoid-/+ Syndesmosis-/+ Talus-/+ Achilles-/+ Calcaneus-/+ Navicular-/+ Cuboid-/+ 5thMT-/+ Lisfranc-/+ PF-/+
 - Ankle ROM：DF 20/20, PF 45/45, Inv 30/30, Ev 20/20
