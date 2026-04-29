@@ -112,8 +112,7 @@
 - 追加身体所見：Tenodesis effect正常/異常、one finger test（部位特定）
 - 特殊テスト（疑う疾患に応じて選択）
   - CTS：Phalen-/- Tinel（carpal tunnel）-/- CTC（Durkan）-/-
-  - De Quervain：Finkelstein-/-（Eichhoff より特異度高・偽陽性少）
-  - TFCC/尺側手関節痛：Ulnocarpal stress-/- Fovea sign-/- Press test-/-
+  - De Quervain：Finkelstein-/-：Ulnocarpal stress-/- Fovea sign-/- Press test-/-
   - DRUJ：Piano key-/- DRUJ ballottement-/-
   - SL損傷：Watson（scaphoid shift）-/-
   - ECU腱：ECU synergy test-/- ECU subluxation-/-（必要時）
@@ -135,8 +134,8 @@
 - 特殊テスト（疑う疾患に応じて選択）
   - 尺骨神経：Froment-/- Wartenberg sign-/-（小指外転）Tinel（cubital/Guyon）-/-
   - 正中神経：Tinel（carpal tunnel）-/- Phalen-/-（必要時）
-  - CMC OA：CMC grind-/-（必要時）
-  - De Quervain：Finkelstein-/-（Eichhoff より特異度高・偽陽性少）
+  - CMC OA：Extension-/- Adduction-/- Lever-/- Pressure-shear-/-
+  - De Quervain：Finkelstein-/-
   - 屈筋腱鞘炎/感染：Kanavel-/-（4徴）Squeeze-/-
   - 側副靱帯：UCL（thumb MCP）stress-/-（必要時）
   - 槌指/ボタン穴：Elson-/-（central slip）
