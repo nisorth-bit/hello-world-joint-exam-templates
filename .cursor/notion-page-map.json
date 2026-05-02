@@ -1,0 +1,16 @@
+{
+  "joint_exam_templates_o_only/cervical_spine.md":       "35165fad-9a7d-81fc-8692-dd693bfc480c",
+  "joint_exam_templates_o_only/thoracic_spine.md":       "35165fad-9a7d-8145-bf23-dca49e304d90",
+  "joint_exam_templates_o_only/lumbar_spine.md":         "35165fad-9a7d-8150-9bf6-e5e94aa2f9ea",
+  "joint_exam_templates_o_only/shoulder.md":             "35165fad-9a7d-8166-85d2-db2d81c18644",
+  "joint_exam_templates_o_only/elbow.md":                "35165fad-9a7d-8191-9be8-fa44888d3d5e",
+  "joint_exam_templates_o_only/wrist.md":                "35165fad-9a7d-812d-844f-f00ec689a851",
+  "joint_exam_templates_o_only/hand.md":                 "35165fad-9a7d-81cf-a396-c087c561b913",
+  "joint_exam_templates_o_only/hip.md":                  "35165fad-9a7d-81f1-ab2d-ff11edef04c6",
+  "joint_exam_templates_o_only/knee.md":                 "35165fad-9a7d-818e-831e-c51675db5ba0",
+  "joint_exam_templates_o_only/ankle_and_foot.md":       "35165fad-9a7d-81a7-b92d-f01f2fbd3529",
+
+  "surgical_plans_and_articles/lower_limb/fractures/left_distal_tibiofibular_fracture_AO43A2.md": "35165fad-9a7d-8188-ba94-e08c54642049",
+  "surgical_plans_and_articles/lower_limb/fractures/right_inferior_pole_patella_fracture.md":      "35465fad-9a7d-8180-bf5e-d979e5311fe7",
+  "surgical_plans_and_articles/lower_limb/fractures/right_femoral_neck_fracture_BHA_OCM.md":        "35465fad-9a7d-81d3-8c37-da570db5e791"
+}
