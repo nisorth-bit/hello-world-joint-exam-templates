@@ -1,6 +1,7 @@
 # 下書き：宣言記事（睡眠）
 
-- **バックログ対応**：`blog_articles_backlog_50.md` の **#43**（続編は #44 `draft_blog_44_pain_sleep_intersection.md`）
+- **バックログ対応**：`blog_articles_backlog_50.md` の **#43**（続編は #44 `drafts/draft_blog_44_pain_sleep_intersection.md`）
+- **置き場所**：`drafts/`（睡眠・更年期などブログ原稿はすべてこのフォルダに集約）
 - **状態**：推敲前。**本文は `Desktop/睡眠/精神医学` 所蔵PDF（精神医学67巻の特集記事等）を読み、要点のみ要約して反映**（文章の転載ではありません）。公開時は実名・肩書・開業状況に合わせて差し替えてください。
 - **想定掲載**：Astro ブログ / note（そのまま分割・短縮可）
 

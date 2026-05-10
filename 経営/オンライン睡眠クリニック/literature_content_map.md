@@ -82,7 +82,7 @@
 
 ## 7. 下書き記事との対応
 
-- `draft_blog_43_sleep_declaration.md` … 上野（2025 67-1）・曽我ほか（2025 67-4）を本文・参考文献欄に反映済み  
-- `draft_blog_44_pain_sleep_intersection.md` … 曽我ほか（67-4）・70のトリビアQ34（67-5）を反映済み  
+- `drafts/draft_blog_43_sleep_declaration.md` … 上野（2025 67-1）・曽我ほか（2025 67-4）を本文・参考文献欄に反映済み  
+- `drafts/draft_blog_44_pain_sleep_intersection.md` … 曽我ほか（67-4）・70のトリビアQ34（67-5）を反映済み  
 
 更新日：2026-05-09
