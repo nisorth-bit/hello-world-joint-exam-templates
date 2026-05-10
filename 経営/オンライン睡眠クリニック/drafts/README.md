@@ -15,5 +15,6 @@
 |---|---|---|
 | `draft_blog_43_sleep_declaration.md` | 宣言（睡眠） | `blog-site/.../sleep-why-orthopedic-sleep.md` |
 | `draft_blog_44_pain_sleep_intersection.md` | 痛みと眠りの交差点 | `blog-site/.../sleep-pain-intersection.md` |
+| `draft_blog_male_01_loh_intro.md` | 男性更年期・宣言（LOH入門） | （三本柱そろい後に blog-site へ） |
 
 バックログとの対応は `blog_articles_backlog_50.md` および `blog_backlog_male_menopause_30.md` / `blog_backlog_female_menopause_30.md` を参照。
