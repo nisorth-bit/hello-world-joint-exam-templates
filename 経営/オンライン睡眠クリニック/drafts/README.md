@@ -20,12 +20,25 @@
 
 ### `sleep/`（柱①）
 
+生活論点の多くは *精神医学* 67(5) **「睡眠の正しい理解を促す70のトリビア」**と対応づけ（`literature_content_map.md` §7.1）。**記事番号は手元PDF目次で照合**。
+
 | ファイル | バックログ | 公開コピー（Astro） |
 |---|---|---|
 | `draft_blog_01_chronic_pain_insomnia.md` | #1 | （未） |
 | `draft_blog_13_cbti_intro.md` | #13 | （未） |
+| `draft_blog_14_sleep_restriction.md` | #14 | （未） |
+| `draft_blog_15_stimulus_control.md` | #15 | （未） |
+| `draft_blog_16_sleep_hygiene_not_enough.md` | #16 | （未） |
+| `draft_blog_17_wake_time_consistency.md` | #17 | （未） |
+| `draft_blog_18_caffeine_cutoff.md` | #18 | （未） |
+| `draft_blog_19_weekend_lie_in.md` | #19 | （未） |
+| `draft_blog_21_bed_smartphone.md` | #21 | （未） |
+| `draft_blog_22_long_bed_time_insomnia.md` | #22 | （未） |
+| `draft_blog_26_sleep_quality_first.md` | #26 | （未） |
 | `draft_blog_27_snoring_when_seek.md` | #27 | （未） |
+| `draft_blog_28_daytime_sleepiness.md` | #28 | （未） |
 | `draft_blog_33_online_sleep_who.md` | #33 | （未） |
+| `draft_blog_34_osa_signs.md` | #34 | （未） |
 | `draft_blog_43_sleep_declaration.md` | #43 | `blog-site/.../sleep-why-orthopedic-sleep.md` |
 | `draft_blog_44_pain_sleep_intersection.md` | #44 | `blog-site/.../sleep-pain-intersection.md` |
 

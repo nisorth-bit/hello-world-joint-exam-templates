@@ -90,6 +90,27 @@
 
 - `drafts/sleep/draft_blog_43_sleep_declaration.md` … 上野（2025 67-1）・曽我ほか（2025 67-4）を反映。**公開ビルド**は `blog-site/src/content/blog/sleep-why-orthopedic-sleep.md`
 - `drafts/sleep/draft_blog_44_pain_sleep_intersection.md` … 曽我ほか・70のトリビアQ34。**公開**は `blog-site/src/content/blog/sleep-pain-intersection.md`  
+- その他 `drafts/sleep/draft_blog_14`〜`34`（70のトリビア＋必要に応じ上野・曽我・評価尺度特集）… 下表 §7.1 参照  
+
+### 特集「睡眠の正しい理解を促す70のトリビア」の使い方（*精神医学* 2025; 67(5)）
+
+ローカル：`Desktop/睡眠/精神医学` の **`202505_睡眠の正しい理解を促す70のトリビア`**。**本文は転載せず**、目次の**見出し語**で該当Qを開き、要約して脚注にする。
+
+| 目次で探す論点（キーワード例） | バックログ | 下書き（`drafts/sleep/`） | 記事番号メモ |
+|---|---|---|---|
+| 長時間ベッド／布団にいる時間と不眠 | 1, 22, 44 | `draft_blog_01` … `draft_blog_22` … `draft_blog_44` | **記事34**（リポ内で照合済） |
+| 睡眠制限のイメージ・怖さ | 14 | `draft_blog_14_sleep_restriction.md` | 目次で「睡眠制限」等を検索 |
+| 刺激統御・寝室の使い方 | 15 | `draft_blog_15_stimulus_control.md` | 同上 |
+| 睡眠衛生だけでは足りない／CBT-Iとの関係 | 16 | `draft_blog_16_sleep_hygiene_not_enough.md` | 同上 |
+| 起床時刻・リズムの安定 | 17 | `draft_blog_17_wake_time_consistency.md` | 同上 |
+| カフェインのタイミング | 18 | `draft_blog_18_caffeine_cutoff.md` | 同上 |
+| 休日の寝だめ・社交時差 | 19 | `draft_blog_19_weekend_lie_in.md` | 同上 |
+| ベッドでスマホ・寝室の光 | 21 | `draft_blog_21_bed_smartphone.md` | 同上＋必要に応じ曽我ほか 67(4) |
+| 「眠りの質」・熟眠感の主観 | 26 | `draft_blog_26_sleep_quality_first.md` | 同上 |
+| いびき・OSAのイメージ | 27, 34 | `draft_blog_27` … `draft_blog_34_osa_signs.md` | ＋202405 評価尺度特集 |
+| 日中の強い眠気の整理 | 28 | `draft_blog_28_daytime_sleepiness.md` | 同上 |
+
+**運用**：表の「記事番号」は、スプレッドシート化（§6）の際に**目次から転記**して確定させる。番号未確定の原稿では脚注を「**該当Q&A（目次見出し：◯◯）**」と書き、公開前に番号を補う。
 
 ---
 
@@ -114,4 +135,4 @@
 
 ---
 
-更新日：2026-05-11
+更新日：2026-05-12
