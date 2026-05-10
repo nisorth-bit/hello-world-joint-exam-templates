@@ -41,5 +41,13 @@
 
 ---
 
+## オンライン睡眠クリニック系（ブログ50本バックログ）
+
+疼痛×睡眠・CBT-I 軸のタイトル案を **50本**、`../オンライン睡眠クリニック/blog_articles_backlog_50.md` に整理済み。Astro 公開用の母艦として使う。
+
+**三本柱（睡眠＋男性更年期＋女性更年期）**の再考・チェックリスト・文献は `../オンライン睡眠クリニック/three_pillars_strategy.md`。ブログ追加バックログ：**男性30本** `blog_backlog_male_menopause_30.md`、**女性30本** `blog_backlog_female_menopause_30.md`。
+
+---
+
 ## メモ
 
