@@ -61,8 +61,8 @@
 | 40 | 高齢者の早朝覚醒と日中の眠気——何を整えるか | D | |
 | 41 | 起床困難・朝起きの悪さと生活リズムの話 | D | 具体病名は慎重に |
 | 42 | 育児中の睡眠不足——現実的な優先順位 | D | |
-| 43 | 整形外科医が「睡眠」をテーマにする理由 | E | 必須の宣言記事 → `drafts/draft_blog_43_sleep_declaration.md` |
-| 44 | このブログで伝えたいこと——痛みと眠りの交差点 | E | `drafts/draft_blog_44_pain_sleep_intersection.md` |
+| 43 | 整形外科医が「睡眠」をテーマにする理由 | E | 原稿 `drafts/draft_blog_43_sleep_declaration.md` · 公開 `blog-site/src/content/blog/sleep-why-orthopedic-sleep.md` |
+| 44 | このブログで伝えたいこと——痛みと眠りの交差点 | E | 原稿 `drafts/draft_blog_44_pain_sleep_intersection.md` · 公開 `blog-site/src/content/blog/sleep-pain-intersection.md` |
 | 45 | オンライン睡眠クリニック準備記（随時更新シリーズ） | E | 第0回〜で分割も可 |
 | 46 | はじめての方へ：初診で整理する流れ（一般説明） | E | 開業後に具体化 |
 | 47 | 自由診療の睡眠診療を選ぶ意味（患者さん向け） | E | |

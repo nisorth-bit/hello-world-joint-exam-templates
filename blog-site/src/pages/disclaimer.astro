@@ -1,0 +1,25 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+---
+
+<!doctype html>
+<html lang="ja">
+	<head>
+		<BaseHead title="免責事項" description="本サイト掲載情報の限界について" />
+	</head>
+	<body>
+		<Header />
+		<main style="max-width: 720px; margin: 0 auto; padding: 1rem;">
+			<h1>免責事項</h1>
+			<p>
+				本サイトに掲載する文章・図表は、一般的な健康・医療情報の提供を目的としたものであり、<strong>特定の読者に対する診断、治療、処方の指示を構成するものではありません</strong>。医療については、必ず医師等の専門家にご相談ください。
+			</p>
+			<p>
+				情報は作成時点の知見に基づきます。内容の正確性については最大限努めますが、完全性を保証するものではありません。
+			</p>
+		</main>
+		<Footer />
+	</body>
+</html>

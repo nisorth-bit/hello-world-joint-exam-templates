@@ -1,0 +1,28 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+---
+
+<!doctype html>
+<html lang="ja">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>{SITE_TITLE}</h1>
+			<p>
+				整形外科の臨床で感じてきた「痛み」と「眠れなさ」が、生活の中では切り離せないこと——その<strong>交差点</strong>を、エビデンスと行動のヒントで整理するサイトです。睡眠を主軸に、更年期前後の話題にも触れていきます。
+			</p>
+			<p>
+				<a href="/blog/">ブログ一覧へ</a>
+				&nbsp;·&nbsp;
+				<a href="/about">プロフィール</a>
+			</p>
+		</main>
+		<Footer />
+	</body>
+</html>

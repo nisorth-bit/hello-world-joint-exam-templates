@@ -1,0 +1,20 @@
+---
+const today = new Date();
+---
+
+<footer>
+	&copy; {today.getFullYear()} （執筆者名・サイト運営者名を入力）. All rights reserved.
+	<p style="margin-top: 1rem; font-size: 0.9em;">
+		<a href="/privacy">プライバシーポリシー</a>
+		&nbsp;|&nbsp;
+		<a href="/disclaimer">免責事項</a>
+	</p>
+</footer>
+<style>
+	footer {
+		padding: 2em 1em 6em 1em;
+		background: linear-gradient(var(--gray-gradient)) no-repeat;
+		color: rgb(var(--gray));
+		text-align: center;
+	}
+</style>

@@ -42,10 +42,12 @@
 ### ワークフロー
 
 ```
-このリポジトリ（非公開）          ブログリポジトリ（公開）
-経営/ブログ・コンテンツ/   →      src/content/blog/
-  article_ideas.md                  記事ネタから執筆・公開
+このリポジトリ内
+  経営/オンライン睡眠クリニック/drafts/  →  blog-site/src/content/blog/*.md
+  article_ideas.md 等                     →  ネタ・戦略のみ
 ```
+
+**実装済み**：`hello-world/blog-site/` に Astro ブログ（トップ・ブログ・プロフィール・プライバシー・免責・2記事）。デプロイは Vercel 等で **Root Directory = `blog-site`**。
 
 ---
 

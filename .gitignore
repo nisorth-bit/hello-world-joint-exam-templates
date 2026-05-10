@@ -1,1 +1,6 @@
 .DS_Store
+
+# Astro ブログ（blog-site）
+blog-site/node_modules/
+blog-site/dist/
+blog-site/.astro/
