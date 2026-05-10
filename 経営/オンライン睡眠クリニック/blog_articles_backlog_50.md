@@ -19,7 +19,7 @@
 
 | # | タイトル案 | 柱 | メモ（内部用） |
 |---:|---|:---:|---|
-| 1 | 慢性痛と不眠は、なぜいっしょに起きやすいのか | A | 全体像・入口記事 → `drafts/draft_blog_01_chronic_pain_insomnia.md` |
+| 1 | 慢性痛と不眠は、なぜいっしょに起きやすいのか | A | 全体像・入口記事 → `drafts/sleep/draft_blog_01_chronic_pain_insomnia.md` |
 | 2 | 腰痛で眠れない夜に、まず整理したいこと | A | plan「痛みと睡眠」寄り |
 | 3 | 膝・股関節の痛みと睡眠の悪循環をどう断つか | A | 変性疾患層 |
 | 4 | 手術後「夜だけ痛くて眠れない」ときの考え方 | A | 術後・一般論のフレーム |
@@ -31,7 +31,7 @@
 | 10 | 慢性痛の多角的ケアの一翼としての睡眠医療 | A | 他診療科との関係 |
 | 11 | ペインクリニックと睡眠：すみ分けのイメージ | A+C | 紹介の話につなぐ |
 | 12 | 整形外科の問診で「眠り」を聞く意味 | A+E | 同業・紹介元にも転用可 |
-| 13 | CBT-Iとは：薬だけに頼らない不眠治療の枠組み | B | 基礎解説 → `drafts/draft_blog_13_cbti_intro.md` |
+| 13 | CBT-Iとは：薬だけに頼らない不眠治療の枠組み | B | 基礎解説 → `drafts/sleep/draft_blog_13_cbti_intro.md` |
 | 14 | 睡眠制限法が怖い人へ：イメージと留意点 | B | planの要素に直結 |
 | 15 | 刺激制御療法——寝室とベッドの役割を分ける | B | |
 | 16 | 「睡眠衛生だけ」では足りないことがある理由 | B | CBT-Iへの橋渡し |
@@ -45,13 +45,13 @@
 | 24 | 身体寄りのリラクゼーション入門——痛みとも相性よい理由 | A+B | |
 | 25 | スリープテック・ウェアラブルはどこまで参考にするか | B | デジタルツール関連 |
 | 26 | 「眠りの質が悪い」と感じたとき最初の着眼点 | B+C | |
-| 27 | いびきが気になるとき——受診の目安の話 | C | 断定はしない → `drafts/draft_blog_27_snoring_when_seek.md` |
+| 27 | いびきが気になるとき——受診の目安の話 | C | 断定はしない → `drafts/sleep/draft_blog_27_snoring_when_seek.md` |
 | 28 | 日中に強い眠気があるとき、考えたいこと | C | OSA・過眠への橋 |
 | 29 | 「ずっと眠れていない」見え方のズレがある場合 | C | 誤認・評価の話 |
 | 30 | 睡眠中の脚の違和感・むずむずについて（概要と受診目安） | C | |
 | 31 | 中枢性過眠症の話——オンライン相談の限界も含めて | C | |
 | 32 | 不眠とうつ——すみ分けと相談のタイミング | C | |
-| 33 | オンライン睡眠相談が向きやすい人・慎重な人 | C+E | クリニック説明に使える → `drafts/draft_blog_33_online_sleep_who.md` |
+| 33 | オンライン睡眠相談が向きやすい人・慎重な人 | C+E | クリニック説明に使える → `drafts/sleep/draft_blog_33_online_sleep_who.md` |
 | 34 | 睡眠時無呼吸を疑うサインを整理する（一般情報） | C | |
 | 35 | 子どもの睡眠——親が押さえたい基本 | D | |
 | 36 | 思春期の起床困難と睡眠相の話 | D | |
@@ -61,8 +61,8 @@
 | 40 | 高齢者の早朝覚醒と日中の眠気——何を整えるか | D | |
 | 41 | 起床困難・朝起きの悪さと生活リズムの話 | D | 具体病名は慎重に |
 | 42 | 育児中の睡眠不足——現実的な優先順位 | D | |
-| 43 | 整形外科医が「睡眠」をテーマにする理由 | E | 原稿 `drafts/draft_blog_43_sleep_declaration.md` · 公開 `blog-site/src/content/blog/sleep-why-orthopedic-sleep.md` |
-| 44 | このブログで伝えたいこと——痛みと眠りの交差点 | E | 原稿 `drafts/draft_blog_44_pain_sleep_intersection.md` · 公開 `blog-site/src/content/blog/sleep-pain-intersection.md` |
+| 43 | 整形外科医が「睡眠」をテーマにする理由 | E | 原稿 `drafts/sleep/draft_blog_43_sleep_declaration.md` · 公開 `blog-site/src/content/blog/sleep-why-orthopedic-sleep.md` |
+| 44 | このブログで伝えたいこと——痛みと眠りの交差点 | E | 原稿 `drafts/sleep/draft_blog_44_pain_sleep_intersection.md` · 公開 `blog-site/src/content/blog/sleep-pain-intersection.md` |
 | 45 | オンライン睡眠クリニック準備記（随時更新シリーズ） | E | 第0回〜で分割も可 |
 | 46 | はじめての方へ：初診で整理する流れ（一般説明） | E | 開業後に具体化 |
 | 47 | 自由診療の睡眠診療を選ぶ意味（患者さん向け） | E | |

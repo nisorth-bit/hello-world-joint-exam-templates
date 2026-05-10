@@ -2,7 +2,7 @@
 
 `strategy.md` で決めた **Astro + Markdown** の公開用ブログです。
 
-**公開タイミング**：三本柱（睡眠・男性更年期・女性更年期）の核記事が `drafts/` で揃うまで、**本番デプロイはしない**方針。それまではローカル `npm run dev` と原稿の双方向同期のみ。
+**公開タイミング**：三本柱（睡眠・男性更年期・女性更年期）の核記事が `drafts/sleep/`・`drafts/male/`・`drafts/female/` で揃うまで、**本番デプロイはしない**方針。それまではローカル `npm run dev` と原稿の双方向同期のみ。
 
 ## ローカル開発
 
@@ -21,7 +21,7 @@ npm run dev
 ## 記事の追加
 
 - `src/content/blog/*.md` に frontmatter（`title`, `description`, `pubDate`）付きで保存
-- 非公開のたたき台はリポジトリ上では `経営/オンライン睡眠クリニック/drafts/` に置き、公開時にここへコピー
+- 非公開のたたき台は `経営/オンライン睡眠クリニック/drafts/sleep|male|female/` に置き、公開時にここへコピー
 
 ## 公開前チェック
 

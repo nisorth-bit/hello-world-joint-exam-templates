@@ -43,7 +43,7 @@
 
 ```
 このリポジトリ内
-  経営/オンライン睡眠クリニック/drafts/  →  blog-site/src/content/blog/*.md
+  経営/オンライン睡眠クリニック/drafts/{sleep,male,female}/  →  blog-site/src/content/blog/*.md
   article_ideas.md 等                     →  ネタ・戦略のみ
 ```
 
@@ -115,7 +115,7 @@ npm create astro@latest my-medical-blog
 ### Phase 3：記事執筆・公開（継続）
 
 - 月2〜4本のペースで記事を書く
-- Cursorで下書き → 原稿は `経営/オンライン睡眠クリニック/drafts/` に蓄積
+- Cursorで下書き → 原稿は `経営/オンライン睡眠クリニック/drafts/sleep|male|female/`（三本柱ごと）に蓄積
 - **本番デプロイ**：三本柱の核記事が揃うまで保留（`three_pillars_strategy.md` 第8節）。揃い次第 `blog-site/src/content/blog/` に反映して Vercel 等へ
 - SNSで記事を宣伝する
 

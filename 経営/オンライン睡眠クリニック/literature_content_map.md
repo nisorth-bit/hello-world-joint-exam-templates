@@ -86,8 +86,10 @@
 
 ## 7. 下書き記事との対応
 
-- `drafts/draft_blog_43_sleep_declaration.md` … 上野（2025 67-1）・曽我ほか（2025 67-4）を反映。**公開ビルド**は `blog-site/src/content/blog/sleep-why-orthopedic-sleep.md`
-- `drafts/draft_blog_44_pain_sleep_intersection.md` … 曽我ほか・70のトリビアQ34。**公開**は `blog-site/src/content/blog/sleep-pain-intersection.md`  
+ブログ下書きは三本柱ごとに **`drafts/sleep/`**（柱①）・**`drafts/male/`**（柱②）・**`drafts/female/`**（柱③）へ保存する（`drafts/README.md`）。
+
+- `drafts/sleep/draft_blog_43_sleep_declaration.md` … 上野（2025 67-1）・曽我ほか（2025 67-4）を反映。**公開ビルド**は `blog-site/src/content/blog/sleep-why-orthopedic-sleep.md`
+- `drafts/sleep/draft_blog_44_pain_sleep_intersection.md` … 曽我ほか・70のトリビアQ34。**公開**は `blog-site/src/content/blog/sleep-pain-intersection.md`  
 
 ---
 
@@ -112,4 +114,4 @@
 
 ---
 
-更新日：2026-05-10
+更新日：2026-05-11

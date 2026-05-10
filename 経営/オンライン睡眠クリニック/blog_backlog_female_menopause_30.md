@@ -7,12 +7,12 @@
 
 | # | タイトル案 | タグ | メモ |
 |---:|---|:---:|---|
-| 1 | 更年期とは何か——閉経前後のからだの変化（入門） | F1 | 原稿 `drafts/draft_blog_female_01_menopause_intro.md` |
-| 2 | ペリメノポーズ（閉経前後期）に起きやすいこと | F1 | `drafts/draft_blog_female_02_perimenopause.md` |
+| 1 | 更年期とは何か——閉経前後のからだの変化（入門） | F1 | 原稿 `drafts/female/draft_blog_female_01_menopause_intro.md` |
+| 2 | ペリメノポーズ（閉経前後期）に起きやすいこと | F1 | `drafts/female/draft_blog_female_02_perimenopause.md` |
 | 3 | ほてり（ホットフラッシュ）がつらいときの整理 | F1+F2 | |
-| 4 | 更年期の睡眠が壊れやすい理由と、最初の一歩 | F2 | 睡眠柱 → `drafts/draft_blog_female_04_sleep_menopause.md` |
+| 4 | 更年期の睡眠が壊れやすい理由と、最初の一歩 | F2 | 睡眠柱 → `drafts/female/draft_blog_female_04_sleep_menopause.md` |
 | 5 | 「自律神経の乱れ」という言葉の前に整理したいこと | F1+F3 | |
-| 6 | 気分の落ち込み——いつ専門医を受けるか | F3 | 精神科・婦人科 → `drafts/draft_blog_female_06_mood_when_seek_care.md` |
+| 6 | 気分の落ち込み——いつ専門医を受けるか | F3 | 精神科・婦人科 → `drafts/female/draft_blog_female_06_mood_when_seek_care.md` |
 | 7 | 若年層の「更年期っぽいつらさ」とは何か | F1+F3 | 文献「若年層の類似症状」 |
 | 8 | 仕事と更年期——相談しにくさと対処のヒント | F2 | |
 | 9 | 夜勤・不規則勤務とホルモン変化の話 | F2 | |
