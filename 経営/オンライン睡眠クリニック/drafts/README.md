@@ -71,6 +71,18 @@
 | `draft_blog_36_private_sleep_care_patient.md` | #36 | （未） |
 | `draft_blog_37_referral_primary_care.md` | #37 | （未） |
 | `draft_blog_38_chronic_pain_insomnia.md` | #38 | （未） |
+| `draft_blog_39_low_back_pain_sleep.md` | #39 | （未） |
+| `draft_blog_40_hip_knee_pain_sleep.md` | #40 | （未） |
+| `draft_blog_41_postop_night_pain_sleep.md` | #41 | （未） |
+| `draft_blog_42_sports_sleep_recovery.md` | #42 | （未） |
+| `draft_blog_43_injury_healing_sleep.md` | #43 | （未） |
+| `draft_blog_44_pain_sleep_patient_talk.md` | #44 | （未） |
+| `draft_blog_45_cast_brace_sleep.md` | #45 | （未） |
+| `draft_blog_46_locomotive_syndrome_sleep.md` | #46 | （未） |
+| `draft_blog_47_multidisciplinary_chronic_pain_sleep.md` | #47 | （未） |
+| `draft_blog_48_pain_clinic_sleep_boundary.md` | #48 | （未） |
+| `draft_blog_49_orthopedic_sleep_history.md` | #49 | （未） |
+| `draft_blog_50_body_relaxation_sleep_pain.md` | #50 | （未） |
 
 **#51〜58**（内科×睡眠、**メモでは `F主軸`＋`B`**。**柱表記 `B+F`**）と **#59〜73**（**70トリビア**の論点分割・`**#70` 欠番**）はバックログにタイトル案とファイル名あり。着手時に `sleep/` へ `draft_blog_51_*` などを追加する。
 
