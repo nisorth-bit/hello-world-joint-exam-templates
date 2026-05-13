@@ -13,8 +13,8 @@
 ## 置き場のルール
 
 - 新規原稿は **柱に対応するサブフォルダ**へ保存する（`drafts/` 直下にばらまかない）。
-- ファイル名の例：`draft_blog_<バックログ番号または題材>_<短いslug>.md`  
-  - 男性柱：`male/draft_blog_male_01_loh_intro.md` のように、ファイル名でも柱が分かるとよい。
+- **`sleep/` のファイル名規則**：`blog_<バックログ番号>_<短いslug>.md`（`draft_` プレフィックスなし。#1〜73 すべて統一済み）
+  - 男性・女性柱は旧来通り：`male/draft_blog_male_01_loh_intro.md` のようにファイル名で柱が分かるとよい。
 - **公開用**はリポジトリ直下の `blog-site/src/content/blog/` に同内容の `.md` を置く（Astro がビルド）。
 - **柱をまたぐ参照**：別フォルダの原稿へは相対パスで書く（例：`../sleep/draft_blog_02_pain_sleep_intersection.md`）。
 
@@ -33,58 +33,81 @@
 
 | ファイル | バックログ（投稿順 #） | 公開コピー（Astro） |
 |---|---|---|
-| `draft_blog_01_sleep_declaration.md` | #1 | `blog-site/.../sleep-why-orthopedic-sleep.md` |
-| `draft_blog_02_pain_sleep_intersection.md` | #2 | `blog-site/.../sleep-pain-intersection.md` |
-| `draft_blog_03_online_sleep_who.md` | #3 | （未） |
-| `draft_blog_04_cbti_intro.md` | #4 | （未） |
-| `draft_blog_05_sleep_hygiene_not_enough.md` | #5 | （未） |
-| `draft_blog_06_stimulus_control.md` | #6 | （未） |
-| `draft_blog_07_sleep_restriction.md` | #7 | （未） |
-| `draft_blog_08_long_bed_time_insomnia.md` | #8 | （未） |
-| `draft_blog_09_wake_time_consistency.md` | #9 | （未） |
-| `draft_blog_10_caffeine_cutoff.md` | #10 | （未） |
-| `draft_blog_11_weekend_lie_in.md` | #11 | （未） |
-| `draft_blog_12_bed_smartphone.md` | #12 | （未） |
-| `draft_blog_13_sleep_quality_first.md` | #13 | （未） |
-| `draft_blog_14_snoring_when_seek.md` | #14 | （未） |
-| `draft_blog_15_daytime_sleepiness.md` | #15 | （未） |
-| `draft_blog_16_osa_signs.md` | #16 | （未） |
-| `draft_blog_17_sleep_tech_wearables.md` | #17 | （未） |
-| `draft_blog_18_reduce_sleep_medication.md` | #18 | （未） |
-| `draft_blog_19_health_info_literacy.md` | #19 | （未） |
-| `draft_blog_20_first_visit_overview.md` | #20 | （未・開業後） |
-| `draft_blog_21_evening_type_to_morning.md` | #21 | （未） |
-| `draft_blog_22_stress_forcing_sleep.md` | #22 | （未） |
-| `draft_blog_23_child_sleep_basics.md` | #23 | （未） |
-| `draft_blog_24_adolescent_sleep_phase.md` | #24 | （未） |
-| `draft_blog_25_neurodiversity_sleep_intro.md` | #25 | （未） |
-| `draft_blog_26_menopause_sleep_changes.md` | #26 | （未） |
-| `draft_blog_27_shift_work_sleep.md` | #27 | （未） |
-| `draft_blog_28_elderly_early_awakening.md` | #28 | （未） |
-| `draft_blog_29_morning_rise_difficulty.md` | #29 | （未） |
-| `draft_blog_30_parenting_sleep_priorities.md` | #30 | （未） |
-| `draft_blog_31_insomnia_subjective_gap.md` | #31 | （未） |
-| `draft_blog_32_rls_legs_sleep.md` | #32 | （未） |
-| `draft_blog_33_central_hypersomnia_online_limits.md` | #33 | （未） |
-| `draft_blog_34_insomnia_depression_timing.md` | #34 | （未） |
-| `draft_blog_35_clinic_opening_series.md` | #35 | （未・第0回） |
-| `draft_blog_36_private_sleep_care_patient.md` | #36 | （未） |
-| `draft_blog_37_referral_primary_care.md` | #37 | （未） |
-| `draft_blog_38_chronic_pain_insomnia.md` | #38 | （未） |
-| `draft_blog_39_low_back_pain_sleep.md` | #39 | （未） |
-| `draft_blog_40_hip_knee_pain_sleep.md` | #40 | （未） |
-| `draft_blog_41_postop_night_pain_sleep.md` | #41 | （未） |
-| `draft_blog_42_sports_sleep_recovery.md` | #42 | （未） |
-| `draft_blog_43_injury_healing_sleep.md` | #43 | （未） |
-| `draft_blog_44_pain_sleep_patient_talk.md` | #44 | （未） |
-| `draft_blog_45_cast_brace_sleep.md` | #45 | （未） |
-| `draft_blog_46_locomotive_syndrome_sleep.md` | #46 | （未） |
-| `draft_blog_47_multidisciplinary_chronic_pain_sleep.md` | #47 | （未） |
-| `draft_blog_48_pain_clinic_sleep_boundary.md` | #48 | （未） |
-| `draft_blog_49_orthopedic_sleep_history.md` | #49 | （未） |
-| `draft_blog_50_body_relaxation_sleep_pain.md` | #50 | （未） |
+| `blog_01_sleep_declaration.md` | #1 | `blog-site/.../sleep-why-orthopedic-sleep.md` |
+| `blog_02_pain_sleep_intersection.md` | #2 | `blog-site/.../sleep-pain-intersection.md` |
+| `blog_03_online_sleep_who.md` | #3 | （未） |
+| `blog_04_cbti_intro.md` | #4 | （未） |
+| `blog_05_sleep_hygiene_not_enough.md` | #5 | （未） |
+| `blog_06_stimulus_control.md` | #6 | （未） |
+| `blog_07_sleep_restriction.md` | #7 | （未） |
+| `blog_08_long_bed_time_insomnia.md` | #8 | （未） |
+| `blog_09_wake_time_consistency.md` | #9 | （未） |
+| `blog_10_caffeine_cutoff.md` | #10 | （未） |
+| `blog_11_weekend_lie_in.md` | #11 | （未） |
+| `blog_12_bed_smartphone.md` | #12 | （未） |
+| `blog_13_sleep_quality_first.md` | #13 | （未） |
+| `blog_14_snoring_when_seek.md` | #14 | （未） |
+| `blog_15_daytime_sleepiness.md` | #15 | （未） |
+| `blog_16_osa_signs.md` | #16 | （未） |
+| `blog_17_sleep_tech_wearables.md` | #17 | （未） |
+| `blog_18_reduce_sleep_medication.md` | #18 | （未） |
+| `blog_19_health_info_literacy.md` | #19 | （未） |
+| `blog_20_first_visit_overview.md` | #20 | （未・開業後） |
+| `blog_21_evening_type_to_morning.md` | #21 | （未） |
+| `blog_22_stress_forcing_sleep.md` | #22 | （未） |
+| `blog_23_child_sleep_basics.md` | #23 | （未） |
+| `blog_24_adolescent_sleep_phase.md` | #24 | （未） |
+| `blog_25_neurodiversity_sleep_intro.md` | #25 | （未） |
+| `blog_26_menopause_sleep_changes.md` | #26 | （未） |
+| `blog_27_shift_work_sleep.md` | #27 | （未） |
+| `blog_28_elderly_early_awakening.md` | #28 | （未） |
+| `blog_29_morning_rise_difficulty.md` | #29 | （未） |
+| `blog_30_parenting_sleep_priorities.md` | #30 | （未） |
+| `blog_31_insomnia_subjective_gap.md` | #31 | （未） |
+| `blog_32_rls_legs_sleep.md` | #32 | （未） |
+| `blog_33_central_hypersomnia_online_limits.md` | #33 | （未） |
+| `blog_34_insomnia_depression_timing.md` | #34 | （未） |
+| `blog_35_clinic_opening_series.md` | #35 | （未・第0回） |
+| `blog_36_private_sleep_care_patient.md` | #36 | （未） |
+| `blog_37_referral_primary_care.md` | #37 | （未） |
+| `blog_38_chronic_pain_insomnia.md` | #38 | （未） |
+| `blog_39_low_back_pain_sleep.md` | #39 | （未） |
+| `blog_40_hip_knee_pain_sleep.md` | #40 | （未） |
+| `blog_41_postop_night_pain_sleep.md` | #41 | （未） |
+| `blog_42_sports_sleep_recovery.md` | #42 | （未） |
+| `blog_43_injury_healing_sleep.md` | #43 | （未） |
+| `blog_44_pain_sleep_patient_talk.md` | #44 | （未） |
+| `blog_45_cast_brace_sleep.md` | #45 | （未） |
+| `blog_46_locomotive_syndrome_sleep.md` | #46 | （未） |
+| `blog_47_multidisciplinary_chronic_pain_sleep.md` | #47 | （未） |
+| `blog_48_pain_clinic_sleep_boundary.md` | #48 | （未） |
+| `blog_49_orthopedic_sleep_history.md` | #49 | （未） |
+| `blog_50_body_relaxation_sleep_pain.md` | #50 | （未） |
+| `blog_51_thyroid_sleep.md` | #51（F主軸+B） | （未） |
+| `blog_52_diabetes_metabolic_sleep.md` | #52（F主軸+B） | （未） |
+| `blog_53_cardiovascular_sleep.md` | #53（F主軸+B） | （未） |
+| `blog_54_ckd_dialysis_sleep.md` | #54（F主軸+B） | （未） |
+| `blog_55_liver_gi_alcohol_sleep.md` | #55（F主軸+B） | （未） |
+| `blog_56_iron_anemia_sleep.md` | #56（F主軸+B） | （未） |
+| `blog_57_rheumatic_inflammation_sleep.md` | #57（F主軸+B） | （未） |
+| `blog_58_post_infectious_fatigue_sleep.md` | #58（F主軸+B） | （未） |
+| `blog_59_napping_daytime_sleepiness.md` | #59（A+B） | （未） |
+| `blog_60_alcohol_sleep_myth.md` | #60（A+B） | （未） |
+| `blog_61_exercise_timing_sleep.md` | #61（A） | （未） |
+| `blog_62_melatonin_general.md` | #62（A+B） | （未） |
+| `blog_63_bedroom_tv_sleep.md` | #63（A） | （未） |
+| `blog_64_jet_lag_travel_sleep.md` | #64（A） | （未） |
+| `blog_65_sleep_tracker_subjective_gap.md` | #65（A+B） | （未） |
+| `blog_66_dreams_rem_overview.md` | #66（A+B） | （未） |
+| `blog_67_hypnic_jerk_sleep_onset.md` | #67（A+B） | （未） |
+| `blog_68_exploding_head_phenomenon_basic.md` | #68（A+B） | （未） |
+| `blog_69_insomnia_phenotypes_overview.md` | #69（A+B） | （未） |
+| ※ **#70 欠番**（雑誌「70のトリビア」と番号混同防止） | — | — |
+| `blog_71_sleep_diary_minimum_viable.md` | #71（A） | （未） |
+| `blog_72_bedding_temperature_sleep.md` | #72（A+B） | （未） |
+| `blog_73_humidity_airway_sleep.md` | #73（A+B） | （未） |
 
-**#51〜58**（内科×睡眠、**メモでは `F主軸`＋`B`**。**柱表記 `B+F`**）と **#59〜73**（**70トリビア**の論点分割・`**#70` 欠番**）はバックログにタイトル案とファイル名あり。着手時に `sleep/` へ `draft_blog_51_*` などを追加する。
+**#51〜73 はすべて作成済み（2026-05）**。次に追加するときは `#74` 以降（採番は `blog_articles_backlog_50.md` の末尾を更新して揃える）。
 
 ### `male/`（柱②）
 
