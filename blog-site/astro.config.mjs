@@ -5,9 +5,9 @@ import sitemap from '@astrojs/sitemap';
 import { defineConfig, fontProviders } from 'astro/config';
 
 // https://astro.build/config
-// 本番URLが決まったら site を差し替え（OGP・canonical・sitemap に使用）
+// Vivo Clinic 本番URL
 export default defineConfig({
-	site: 'https://example.com',
+	site: 'https://vivoclinic.jp',
 	integrations: [mdx(), sitemap()],
 	fonts: [
 		{
