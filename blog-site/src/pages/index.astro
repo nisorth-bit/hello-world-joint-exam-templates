@@ -12,17 +12,219 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 	</head>
 	<body>
 		<Header />
-		<main>
-			<h1>{SITE_TITLE}</h1>
-			<p>
-				ホルモンと睡眠の専門オンラインクリニックです。<strong>男性更年期（LOH症候群）・女性更年期・睡眠障害</strong>を、自宅から・スマホで・翌日には処方。全国対応のオンライン診療。
-			</p>
-			<p>
-				<a href="/blog/">コラム一覧</a>
-				&nbsp;·&nbsp;
-				<a href="/about">クリニックについて</a>
-			</p>
-		</main>
+
+		<section class="hero">
+			<div class="hero-inner">
+				<p class="hero-label">オンライン専門クリニック</p>
+				<h1>ホルモンと睡眠で、<br />本来の活力を取り戻す</h1>
+				<p class="hero-sub">
+					男性更年期（LOH症候群）・女性更年期・睡眠障害を、<br class="pc-only" />
+					自宅から・スマホで・全国対応のオンライン診療。
+				</p>
+				<div class="hero-actions">
+					<a href="/about#reservation" class="btn-primary">診療を予約する</a>
+					<a href="/blog" class="btn-secondary">コラムを読む</a>
+				</div>
+				<div class="hero-tags">
+					<span>男性更年期・TRT</span>
+					<span>女性更年期・HRT</span>
+					<span>睡眠障害</span>
+					<span>全国対応</span>
+					<span>自由診療</span>
+				</div>
+			</div>
+		</section>
+
+		<section class="pillars">
+			<div class="pillars-inner">
+				<div class="pillar">
+					<div class="pillar-icon">◎</div>
+					<h3>男性更年期（LOH症候群）</h3>
+					<p>疲れ・気力低下・ED——「歳のせい」と放置しないために。テストステロン補充療法（TRT）を自由診療でオンライン処方。</p>
+				</div>
+				<div class="pillar">
+					<div class="pillar-icon">◎</div>
+					<h3>女性更年期</h3>
+					<p>ほてり・動悸・気分の波。HRT（ホルモン補充療法）・漢方・低用量ピルをオンラインで相談・処方。</p>
+				</div>
+				<div class="pillar">
+					<div class="pillar-icon">◎</div>
+					<h3>睡眠障害</h3>
+					<p>不眠・睡眠時無呼吸・日中の眠気。保険診療で対応。睡眠の質の改善が、ホルモンバランスにも直結します。</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="latest-posts">
+			<div class="latest-inner">
+				<h2>最新コラム</h2>
+				<p><a href="/blog">コラム一覧を見る →</a></p>
+			</div>
+		</section>
+
 		<Footer />
 	</body>
 </html>
+
+<style>
+	/* Hero */
+	.hero {
+		background: linear-gradient(135deg, #EBF4F4 0%, #FFFFFF 60%);
+		border-bottom: 1px solid var(--border);
+		padding: 5em 1em 4em;
+	}
+
+	.hero-inner {
+		max-width: 760px;
+		margin: 0 auto;
+	}
+
+	.hero-label {
+		display: inline-block;
+		background-color: var(--accent-light);
+		color: var(--accent-dark);
+		font-size: 0.82em;
+		font-weight: 600;
+		padding: 0.3em 0.8em;
+		border-radius: 20px;
+		margin-bottom: 1em;
+		letter-spacing: 0.05em;
+	}
+
+	.hero h1 {
+		font-size: 2.4em;
+		line-height: 1.35;
+		color: var(--text);
+		margin: 0 0 0.6em;
+	}
+
+	.hero-sub {
+		font-size: 1.05em;
+		color: var(--text-secondary);
+		margin-bottom: 2em;
+		line-height: 1.8;
+	}
+
+	.hero-actions {
+		display: flex;
+		gap: 1em;
+		flex-wrap: wrap;
+		margin-bottom: 2em;
+	}
+
+	.btn-primary {
+		display: inline-block;
+		padding: 0.75em 1.8em;
+		background-color: var(--accent);
+		color: #fff;
+		text-decoration: none;
+		border-radius: 6px;
+		font-weight: 600;
+		font-size: 1em;
+		transition: background 0.15s;
+	}
+
+	.btn-primary:hover {
+		background-color: var(--accent-dark);
+		color: #fff;
+	}
+
+	.btn-secondary {
+		display: inline-block;
+		padding: 0.75em 1.8em;
+		border: 2px solid var(--accent);
+		color: var(--accent);
+		text-decoration: none;
+		border-radius: 6px;
+		font-weight: 600;
+		font-size: 1em;
+		transition: all 0.15s;
+	}
+
+	.btn-secondary:hover {
+		background-color: var(--accent-light);
+	}
+
+	.hero-tags {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5em;
+	}
+
+	.hero-tags span {
+		background-color: #fff;
+		border: 1px solid var(--border);
+		color: var(--text-secondary);
+		font-size: 0.82em;
+		padding: 0.25em 0.7em;
+		border-radius: 20px;
+	}
+
+	/* Pillars */
+	.pillars {
+		padding: 4em 1em;
+		background-color: var(--bg);
+	}
+
+	.pillars-inner {
+		max-width: 960px;
+		margin: 0 auto;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 2em;
+	}
+
+	.pillar {
+		background-color: var(--bg-subtle);
+		border: 1px solid var(--border);
+		border-radius: 10px;
+		padding: 2em 1.5em;
+	}
+
+	.pillar-icon {
+		color: var(--accent);
+		font-size: 1.5em;
+		margin-bottom: 0.5em;
+	}
+
+	.pillar h3 {
+		font-size: 1em;
+		margin: 0 0 0.8em;
+		color: var(--text);
+	}
+
+	.pillar p {
+		font-size: 0.9em;
+		color: var(--text-secondary);
+		line-height: 1.7;
+		margin: 0;
+	}
+
+	/* Latest posts */
+	.latest-posts {
+		padding: 3em 1em;
+		border-top: 1px solid var(--border);
+	}
+
+	.latest-inner {
+		max-width: 760px;
+		margin: 0 auto;
+	}
+
+	.latest-inner h2 {
+		margin-top: 0;
+	}
+
+	/* Responsive */
+	@media (max-width: 720px) {
+		.hero h1 {
+			font-size: 1.8em;
+		}
+		.pillars-inner {
+			grid-template-columns: 1fr;
+		}
+		.pc-only {
+			display: none;
+		}
+	}
+</style>

@@ -3,18 +3,72 @@ const today = new Date();
 ---
 
 <footer>
-	&copy; {today.getFullYear()} （執筆者名・サイト運営者名を入力）. All rights reserved.
-	<p style="margin-top: 1rem; font-size: 0.9em;">
-		<a href="/privacy">プライバシーポリシー</a>
-		&nbsp;|&nbsp;
-		<a href="/disclaimer">免責事項</a>
-	</p>
+	<div class="footer-inner">
+		<p class="footer-name">Vivo Clinic</p>
+		<p class="footer-desc">ホルモンと睡眠の専門オンラインクリニック</p>
+		<nav class="footer-links">
+			<a href="/privacy">プライバシーポリシー</a>
+			<span>|</span>
+			<a href="/disclaimer">免責事項</a>
+			<span>|</span>
+			<a href="/about">クリニックについて</a>
+		</nav>
+		<p class="copyright">&copy; {today.getFullYear()} Vivo Clinic. All rights reserved.</p>
+	</div>
 </footer>
+
 <style>
 	footer {
-		padding: 2em 1em 6em 1em;
-		background: linear-gradient(var(--gray-gradient)) no-repeat;
-		color: rgb(var(--gray));
+		border-top: 1px solid var(--border);
+		background-color: var(--bg-subtle);
+		padding: 3em 1em 4em;
+	}
+
+	.footer-inner {
+		max-width: 760px;
+		margin: 0 auto;
 		text-align: center;
+	}
+
+	.footer-name {
+		font-weight: 700;
+		font-size: 1.1em;
+		color: var(--text);
+		margin: 0 0 0.3em;
+	}
+
+	.footer-desc {
+		color: var(--text-secondary);
+		font-size: 0.9em;
+		margin: 0 0 1.2em;
+	}
+
+	.footer-links {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 0.6em;
+		flex-wrap: wrap;
+		margin-bottom: 1.2em;
+	}
+
+	.footer-links a {
+		color: var(--text-secondary);
+		text-decoration: none;
+		font-size: 0.88em;
+	}
+
+	.footer-links a:hover {
+		color: var(--accent);
+	}
+
+	.footer-links span {
+		color: var(--border);
+	}
+
+	.copyright {
+		color: var(--text-secondary);
+		font-size: 0.82em;
+		margin: 0;
 	}
 </style>

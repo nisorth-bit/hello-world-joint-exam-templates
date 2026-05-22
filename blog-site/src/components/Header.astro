@@ -5,52 +5,96 @@ import HeaderLink from './HeaderLink.astro';
 
 <header>
 	<nav>
-		<h2><a href="/">{SITE_TITLE}</a></h2>
-		<div class="internal-links">
-			<HeaderLink href="/">トップ</HeaderLink>
-			<HeaderLink href="/blog">ブログ</HeaderLink>
-			<HeaderLink href="/about">プロフィール</HeaderLink>
-			<HeaderLink href="/privacy">プライバシー</HeaderLink>
-			<HeaderLink href="/disclaimer">免責</HeaderLink>
+		<a href="/" class="logo">{SITE_TITLE}</a>
+		<div class="nav-links">
+			<HeaderLink href="/blog">コラム</HeaderLink>
+			<HeaderLink href="/about">クリニックについて</HeaderLink>
 		</div>
+		<a href="/about#reservation" class="cta-btn">診療を予約する</a>
 	</nav>
 </header>
+
 <style>
 	header {
-		margin: 0;
-		padding: 0 1em;
-		background: white;
-		box-shadow: 0 2px 8px rgba(var(--black), 5%);
-	}
-	h2 {
-		margin: 0;
-		font-size: 1em;
+		position: sticky;
+		top: 0;
+		z-index: 100;
+		background: #fff;
+		border-bottom: 1px solid var(--border);
+		box-shadow: 0 1px 6px rgba(27, 42, 74, 0.06);
 	}
 
-	h2 a,
-	h2 a.active {
-		text-decoration: none;
-	}
 	nav {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		flex-wrap: wrap;
-		gap: 0.5rem;
+		gap: 1rem;
+		max-width: 1000px;
+		margin: 0 auto;
+		padding: 0 1.5em;
+		height: 60px;
 	}
-	.internal-links {
+
+	.logo {
+		font-size: 1.1em;
+		font-weight: 700;
+		color: var(--text);
+		text-decoration: none;
+		letter-spacing: 0.03em;
+		white-space: nowrap;
+	}
+
+	.logo:hover {
+		color: var(--accent);
+	}
+
+	.nav-links {
 		display: flex;
-		flex-wrap: wrap;
 		align-items: center;
+		gap: 0.2rem;
+		flex: 1;
+		justify-content: center;
 	}
-	nav a {
-		padding: 1em 0.5em;
-		color: var(--black);
-		border-bottom: 4px solid transparent;
+
+	.nav-links :global(a) {
+		padding: 0.5em 0.8em;
+		color: var(--text-secondary);
 		text-decoration: none;
+		font-size: 0.95em;
+		border-radius: 4px;
+		transition: color 0.15s, background 0.15s;
 	}
-	nav a.active {
+
+	.nav-links :global(a:hover),
+	.nav-links :global(a.active) {
+		color: var(--accent);
+		background-color: var(--accent-light);
+	}
+
+	.cta-btn {
+		display: inline-block;
+		padding: 0.5em 1.1em;
+		background-color: var(--accent);
+		color: #fff;
 		text-decoration: none;
-		border-bottom-color: var(--accent);
+		border-radius: 6px;
+		font-size: 0.88em;
+		font-weight: 600;
+		white-space: nowrap;
+		transition: background 0.15s;
+	}
+
+	.cta-btn:hover {
+		background-color: var(--accent-dark);
+		color: #fff;
+	}
+
+	@media (max-width: 600px) {
+		.nav-links {
+			display: none;
+		}
+		nav {
+			padding: 0 1em;
+		}
 	}
 </style>
