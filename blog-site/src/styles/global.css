@@ -1,20 +1,20 @@
 :root {
-	--accent: #0D6E6E;
-	--accent-dark: #085454;
-	--accent-light: #E8F4F4;
-	--bg: #FFFFFF;
-	--bg-subtle: #F7FAFA;
-	--text: #1B2A4A;
-	--text-secondary: #5A6A7E;
-	--border: #D6E4E4;
-	--black: 27, 42, 74;
-	--gray: 90, 106, 126;
-	--gray-light: 214, 228, 228;
-	--gray-dark: 27, 42, 74;
+	--accent: #2A8C74;
+	--accent-dark: #1E6A57;
+	--accent-light: #EAF5F1;
+	--bg: #FDFCFA;
+	--bg-subtle: #F5F2EE;
+	--text: #1C2B3A;
+	--text-secondary: #5E6E7A;
+	--border: #DFD8CE;
+	--black: 28, 43, 58;
+	--gray: 94, 110, 122;
+	--gray-light: 223, 216, 206;
+	--gray-dark: 28, 43, 58;
 	--gray-gradient: rgba(var(--gray-light), 20%), var(--bg);
 	--box-shadow:
-		0 2px 8px rgba(27, 42, 74, 0.08),
-		0 8px 24px rgba(27, 42, 74, 0.05);
+		0 2px 8px rgba(28, 43, 58, 0.07),
+		0 8px 24px rgba(28, 43, 58, 0.05);
 }
 
 * {
