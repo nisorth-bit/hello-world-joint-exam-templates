@@ -1,5 +1,4 @@
 ---
-import { Image } from 'astro:assets';
 import { getCollection } from 'astro:content';
 import BaseHead from '../../components/BaseHead.astro';
 import Footer from '../../components/Footer.astro';
@@ -10,105 +9,229 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../../consts';
 const posts = (await getCollection('blog')).sort(
 	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
+
+const allTags = ['すべて', ...Array.from(new Set(posts.flatMap((p) => p.data.tags ?? [])))];
 ---
 
 <!doctype html>
 <html lang="ja">
 	<head>
-		<BaseHead title={`ブログ | ${SITE_TITLE}`} description={SITE_DESCRIPTION} />
-		<style>
-			main {
-				width: 960px;
-			}
-			ul {
-				display: flex;
-				flex-wrap: wrap;
-				gap: 2rem;
-				list-style-type: none;
-				margin: 0;
-				padding: 0;
-			}
-			ul li {
-				width: calc(50% - 1rem);
-			}
-			ul li * {
-				text-decoration: none;
-				transition: 0.2s ease;
-			}
-			ul li:first-child {
-				width: 100%;
-				margin-bottom: 1rem;
-				text-align: center;
-			}
-			ul li:first-child img {
-				width: 100%;
-			}
-			ul li:first-child .title {
-				font-size: 2.369rem;
-			}
-			ul li img {
-				margin-bottom: 0.5rem;
-				border-radius: 12px;
-			}
-			ul li a {
-				display: block;
-			}
-			.title {
-				margin: 0;
-				color: rgb(var(--black));
-				line-height: 1;
-			}
-			.date {
-				margin: 0;
-				color: rgb(var(--gray));
-			}
-			ul li a:hover h4,
-			ul li a:hover .date {
-				color: rgb(var(--accent));
-			}
-			ul a:hover img {
-				box-shadow: var(--box-shadow);
-			}
-			@media (max-width: 720px) {
-				ul {
-					gap: 0.5em;
-				}
-				ul li {
-					width: 100%;
-					text-align: center;
-				}
-				ul li:first-child {
-					margin-bottom: 0;
-				}
-				ul li:first-child .title {
-					font-size: 1.563em;
-				}
-			}
-		</style>
+		<BaseHead title={`コラム | ${SITE_TITLE}`} description={SITE_DESCRIPTION} />
 	</head>
 	<body>
 		<Header />
 		<main>
-			<section>
-				<ul>
-					{
-						posts.map((post) => (
-							<li>
-								<a href={`/blog/${post.id}/`}>
-									{post.data.heroImage && (
-										<Image width={720} height={360} src={post.data.heroImage} alt="" />
-									)}
-									<h4 class="title">{post.data.title}</h4>
-									<p class="date">
-										<FormattedDate date={post.data.pubDate} />
-									</p>
-								</a>
-							</li>
-						))
-					}
-				</ul>
-			</section>
+			<div class="page-header">
+				<h1>コラム一覧</h1>
+				<p>ホルモン・睡眠・更年期に関する医療情報をわかりやすく解説します。</p>
+			</div>
+
+			<div class="tag-filters" role="group" aria-label="カテゴリー絞り込み">
+				{allTags.map((tag) => (
+					<button class={`tag-btn ${tag === 'すべて' ? 'active' : ''}`} data-tag={tag}>
+						{tag}
+					</button>
+				))}
+			</div>
+
+			<div class="post-count">
+				<span id="count">{posts.length}</span> 件
+			</div>
+
+			<ul class="card-grid" id="post-list">
+				{posts.map((post) => (
+					<li class="card" data-tags={JSON.stringify(post.data.tags ?? [])}>
+						<a href={`/blog/${post.id}/`}>
+							<div class="card-tags">
+								{(post.data.tags ?? []).map((tag) => (
+									<span class="tag">{tag}</span>
+								))}
+							</div>
+							<h2 class="card-title">{post.data.title}</h2>
+							<p class="card-desc">{post.data.description}</p>
+							<p class="card-date">
+								<FormattedDate date={post.data.pubDate} />
+							</p>
+						</a>
+					</li>
+				))}
+			</ul>
+
+			<p class="no-results" id="no-results" style="display:none;">
+				該当する記事がありません。
+			</p>
 		</main>
 		<Footer />
 	</body>
 </html>
+
+<script>
+	const buttons = document.querySelectorAll<HTMLButtonElement>('.tag-btn');
+	const cards = document.querySelectorAll<HTMLLIElement>('.card');
+	const countEl = document.getElementById('count');
+	const noResults = document.getElementById('no-results');
+
+	buttons.forEach((btn) => {
+		btn.addEventListener('click', () => {
+			const tag = btn.dataset.tag ?? 'すべて';
+
+			buttons.forEach((b) => b.classList.remove('active'));
+			btn.classList.add('active');
+
+			let visible = 0;
+			cards.forEach((card) => {
+				const tags: string[] = JSON.parse(card.dataset.tags ?? '[]');
+				const show = tag === 'すべて' || tags.includes(tag);
+				card.style.display = show ? '' : 'none';
+				if (show) visible++;
+			});
+
+			if (countEl) countEl.textContent = String(visible);
+			if (noResults) noResults.style.display = visible === 0 ? '' : 'none';
+		});
+	});
+</script>
+
+<style>
+	main {
+		max-width: 960px;
+		padding-top: 2.5em;
+	}
+
+	.page-header {
+		margin-bottom: 2em;
+	}
+
+	.page-header h1 {
+		margin: 0 0 0.3em;
+		font-size: 1.8em;
+	}
+
+	.page-header p {
+		color: var(--text-secondary);
+		margin: 0;
+		font-size: 0.95em;
+	}
+
+	/* Tag filters */
+	.tag-filters {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5em;
+		margin-bottom: 1.2em;
+	}
+
+	.tag-btn {
+		padding: 0.4em 1em;
+		border: 1.5px solid var(--border);
+		border-radius: 20px;
+		background: var(--bg);
+		color: var(--text-secondary);
+		font-size: 0.88em;
+		cursor: pointer;
+		transition: all 0.15s;
+		font-family: inherit;
+	}
+
+	.tag-btn:hover {
+		border-color: var(--accent);
+		color: var(--accent);
+	}
+
+	.tag-btn.active {
+		background: var(--accent);
+		border-color: var(--accent);
+		color: #fff;
+		font-weight: 600;
+	}
+
+	.post-count {
+		font-size: 0.88em;
+		color: var(--text-secondary);
+		margin-bottom: 1.5em;
+	}
+
+	/* Card grid */
+	.card-grid {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 1.5em;
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	.card a {
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+		padding: 1.4em;
+		border: 1px solid var(--border);
+		border-radius: 10px;
+		background: var(--bg);
+		text-decoration: none;
+		color: inherit;
+		transition: box-shadow 0.15s, border-color 0.15s;
+	}
+
+	.card a:hover {
+		box-shadow: var(--box-shadow);
+		border-color: var(--accent);
+	}
+
+	.card-tags {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.4em;
+		margin-bottom: 0.8em;
+	}
+
+	.tag {
+		font-size: 0.75em;
+		padding: 0.2em 0.6em;
+		background: var(--accent-light);
+		color: var(--accent-dark);
+		border-radius: 12px;
+		font-weight: 600;
+	}
+
+	.card-title {
+		font-size: 0.98em;
+		line-height: 1.5;
+		margin: 0 0 0.6em;
+		color: var(--text);
+		font-weight: 700;
+	}
+
+	.card-desc {
+		font-size: 0.85em;
+		color: var(--text-secondary);
+		line-height: 1.6;
+		margin: 0 0 auto;
+		flex: 1;
+	}
+
+	.card-date {
+		font-size: 0.8em;
+		color: var(--text-secondary);
+		margin: 0.8em 0 0;
+	}
+
+	.no-results {
+		color: var(--text-secondary);
+		text-align: center;
+		padding: 3em 0;
+	}
+
+	@media (max-width: 720px) {
+		.card-grid {
+			grid-template-columns: 1fr;
+		}
+	}
+
+	@media (min-width: 721px) and (max-width: 960px) {
+		.card-grid {
+			grid-template-columns: repeat(2, 1fr);
+		}
+	}
+</style>
