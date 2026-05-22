@@ -42,10 +42,20 @@ const allTags = ['すべて', ...Array.from(new Set(posts.flatMap((p) => p.data.
 				{posts.map((post) => (
 					<li class="card" data-tags={JSON.stringify(post.data.tags ?? [])}>
 						<a href={`/blog/${post.id}/`}>
-							<div class="card-tags">
-								{(post.data.tags ?? []).map((tag) => (
-									<span class="tag">{tag}</span>
-								))}
+							<div class="card-meta">
+								{post.data.series && (
+									<span class="series-badge">
+										{post.data.series}
+										{post.data.seriesNumber != null && (
+											<span class="series-num">#{post.data.seriesNumber}</span>
+										)}
+									</span>
+								)}
+								<div class="card-tags">
+									{(post.data.tags ?? []).filter(t => t !== post.data.series).map((tag) => (
+										<span class="tag">{tag}</span>
+									))}
+								</div>
 							</div>
 							<h2 class="card-title">{post.data.title}</h2>
 							<p class="card-desc">{post.data.description}</p>
@@ -179,11 +189,34 @@ const allTags = ['すべて', ...Array.from(new Set(posts.flatMap((p) => p.data.
 		border-color: var(--accent);
 	}
 
+	.card-meta {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 0.4em;
+		margin-bottom: 0.8em;
+	}
+
+	.series-badge {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.2em;
+		font-size: 0.78em;
+		font-weight: 700;
+		padding: 0.2em 0.7em;
+		background: var(--accent);
+		color: #fff;
+		border-radius: 12px;
+	}
+
+	.series-num {
+		opacity: 0.85;
+	}
+
 	.card-tags {
 		display: flex;
 		flex-wrap: wrap;
 		gap: 0.4em;
-		margin-bottom: 0.8em;
 	}
 
 	.tag {
