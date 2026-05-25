@@ -2,269 +2,147 @@
 import { getCollection } from 'astro:content';
 import BaseHead from '../../components/BaseHead.astro';
 import Footer from '../../components/Footer.astro';
-import FormattedDate from '../../components/FormattedDate.astro';
 import Header from '../../components/Header.astro';
-import { SITE_DESCRIPTION, SITE_TITLE } from '../../consts';
+import { SITE_TITLE } from '../../consts';
 
-const posts = (await getCollection('blog')).sort(
-	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
-);
+const posts = await getCollection('blog');
 
-const allTags = ['すべて', ...Array.from(new Set(posts.flatMap((p) => p.data.tags ?? [])))];
+const count = (series: string) => posts.filter(p => p.data.series === series).length;
+
+const categories = [
+  {
+    title: '男性の更年期',
+    slug: 'male',
+    desc: 'LOH症候群・テストステロン補充・疲れ・気力低下・EDなど男性ホルモンに関わるコラム。',
+    count: count('男性の更年期'),
+    color: '#1B5E8A',
+    light: '#E8F2FA',
+  },
+  {
+    title: '睡眠・不眠',
+    slug: 'sleep',
+    desc: '不眠・睡眠時無呼吸・睡眠衛生・CBT-Iなど睡眠の質に関わるコラム。',
+    count: count('睡眠・不眠'),
+    color: '#2A5C6E',
+    light: '#E8F4F0',
+  },
+  {
+    title: '女性の更年期',
+    slug: 'female',
+    desc: 'ほてり・動悸・HRT・漢方・骨密度など女性ホルモンと更年期に関わるコラム。',
+    count: count('女性の更年期'),
+    color: '#7A3A6E',
+    light: '#F5EAF3',
+  },
+];
 ---
 
 <!doctype html>
 <html lang="ja">
-	<head>
-		<BaseHead title={`コラム | ${SITE_TITLE}`} description={SITE_DESCRIPTION} />
-	</head>
-	<body>
-		<Header />
-		<main>
-			<div class="page-header">
-				<h1>コラム一覧</h1>
-				<p>ホルモン・睡眠・更年期に関する医療情報をわかりやすく解説します。</p>
-			</div>
+  <head>
+    <BaseHead title={`コラム | ${SITE_TITLE}`} description="男性更年期・睡眠・女性更年期に関する医療コラム一覧" />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <div class="page-header">
+        <h1>コラム</h1>
+        <p>カテゴリーを選んでください。</p>
+      </div>
 
-			<div class="tag-filters" role="group" aria-label="カテゴリー絞り込み">
-				{allTags.map((tag) => (
-					<button class={`tag-btn ${tag === 'すべて' ? 'active' : ''}`} data-tag={tag}>
-						{tag}
-					</button>
-				))}
-			</div>
-
-			<div class="post-count">
-				<span id="count">{posts.length}</span> 件
-			</div>
-
-			<ul class="card-grid" id="post-list">
-				{posts.map((post) => (
-					<li class="card" data-tags={JSON.stringify(post.data.tags ?? [])}>
-						<a href={`/blog/${post.id}/`}>
-							<div class="card-meta">
-								{post.data.series && (
-									<span class="series-badge">
-										{post.data.series}
-										{post.data.seriesNumber != null && (
-											<span class="series-num">#{post.data.seriesNumber}</span>
-										)}
-									</span>
-								)}
-								<div class="card-tags">
-									{(post.data.tags ?? []).filter(t => t !== post.data.series).map((tag) => (
-										<span class="tag">{tag}</span>
-									))}
-								</div>
-							</div>
-							<h2 class="card-title">{post.data.title}</h2>
-							<p class="card-desc">{post.data.description}</p>
-							<p class="card-date">
-								<FormattedDate date={post.data.pubDate} />
-							</p>
-						</a>
-					</li>
-				))}
-			</ul>
-
-			<p class="no-results" id="no-results" style="display:none;">
-				該当する記事がありません。
-			</p>
-		</main>
-		<Footer />
-	</body>
+      <div class="category-grid">
+        {categories.map(cat => (
+          <a href={`/blog/${cat.slug}/`} class="category-card" style={`--cat-color: ${cat.color}; --cat-light: ${cat.light};`}>
+            <div class="cat-header">
+              <h2>{cat.title}</h2>
+              <span class="cat-count">{cat.count}本</span>
+            </div>
+            <p class="cat-desc">{cat.desc}</p>
+            <span class="cat-link">一覧を見る →</span>
+          </a>
+        ))}
+      </div>
+    </main>
+    <Footer />
+  </body>
 </html>
 
-<script>
-	const buttons = document.querySelectorAll<HTMLButtonElement>('.tag-btn');
-	const cards = document.querySelectorAll<HTMLLIElement>('.card');
-	const countEl = document.getElementById('count');
-	const noResults = document.getElementById('no-results');
-
-	buttons.forEach((btn) => {
-		btn.addEventListener('click', () => {
-			const tag = btn.dataset.tag ?? 'すべて';
-
-			buttons.forEach((b) => b.classList.remove('active'));
-			btn.classList.add('active');
-
-			let visible = 0;
-			cards.forEach((card) => {
-				const tags: string[] = JSON.parse(card.dataset.tags ?? '[]');
-				const show = tag === 'すべて' || tags.includes(tag);
-				card.style.display = show ? '' : 'none';
-				if (show) visible++;
-			});
-
-			if (countEl) countEl.textContent = String(visible);
-			if (noResults) noResults.style.display = visible === 0 ? '' : 'none';
-		});
-	});
-</script>
-
 <style>
-	main {
-		max-width: 960px;
-		padding-top: 2.5em;
-	}
+  .page-header {
+    margin-bottom: 2em;
+  }
+  .page-header h1 {
+    margin: 0 0 0.3em;
+  }
+  .page-header p {
+    color: var(--text-secondary);
+    margin: 0;
+  }
 
-	.page-header {
-		margin-bottom: 2em;
-	}
+  .category-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5em;
+  }
 
-	.page-header h1 {
-		margin: 0 0 0.3em;
-		font-size: 1.8em;
-	}
+  .category-card {
+    display: flex;
+    flex-direction: column;
+    padding: 1.8em;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    background: var(--cat-light);
+    text-decoration: none;
+    color: inherit;
+    transition: box-shadow 0.15s, transform 0.15s;
+  }
 
-	.page-header p {
-		color: var(--text-secondary);
-		margin: 0;
-		font-size: 0.95em;
-	}
+  .category-card:hover {
+    box-shadow: var(--box-shadow);
+    transform: translateY(-2px);
+  }
 
-	/* Tag filters */
-	.tag-filters {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 0.5em;
-		margin-bottom: 1.2em;
-	}
+  .cat-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.8em;
+  }
 
-	.tag-btn {
-		padding: 0.4em 1em;
-		border: 1.5px solid var(--border);
-		border-radius: 20px;
-		background: var(--bg);
-		color: var(--text-secondary);
-		font-size: 0.88em;
-		cursor: pointer;
-		transition: all 0.15s;
-		font-family: inherit;
-	}
+  .cat-header h2 {
+    margin: 0;
+    font-size: 1.1em;
+    color: var(--cat-color);
+  }
 
-	.tag-btn:hover {
-		border-color: var(--accent);
-		color: var(--accent);
-	}
+  .cat-count {
+    font-size: 0.82em;
+    font-weight: 700;
+    color: var(--cat-color);
+    background: #fff;
+    padding: 0.2em 0.6em;
+    border-radius: 20px;
+    border: 1px solid var(--cat-color);
+    opacity: 0.8;
+  }
 
-	.tag-btn.active {
-		background: var(--accent);
-		border-color: var(--accent);
-		color: #fff;
-		font-weight: 600;
-	}
+  .cat-desc {
+    font-size: 0.88em;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin: 0 0 1.2em;
+    flex: 1;
+  }
 
-	.post-count {
-		font-size: 0.88em;
-		color: var(--text-secondary);
-		margin-bottom: 1.5em;
-	}
+  .cat-link {
+    font-size: 0.88em;
+    font-weight: 600;
+    color: var(--cat-color);
+  }
 
-	/* Card grid */
-	.card-grid {
-		display: grid;
-		grid-template-columns: repeat(3, 1fr);
-		gap: 1.5em;
-		list-style: none;
-		padding: 0;
-		margin: 0;
-	}
-
-	.card a {
-		display: flex;
-		flex-direction: column;
-		height: 100%;
-		padding: 1.4em;
-		border: 1px solid var(--border);
-		border-radius: 10px;
-		background: var(--bg);
-		text-decoration: none;
-		color: inherit;
-		transition: box-shadow 0.15s, border-color 0.15s;
-	}
-
-	.card a:hover {
-		box-shadow: var(--box-shadow);
-		border-color: var(--accent);
-	}
-
-	.card-meta {
-		display: flex;
-		flex-wrap: wrap;
-		align-items: center;
-		gap: 0.4em;
-		margin-bottom: 0.8em;
-	}
-
-	.series-badge {
-		display: inline-flex;
-		align-items: center;
-		gap: 0.2em;
-		font-size: 0.78em;
-		font-weight: 700;
-		padding: 0.2em 0.7em;
-		background: var(--accent);
-		color: #fff;
-		border-radius: 12px;
-	}
-
-	.series-num {
-		opacity: 0.85;
-	}
-
-	.card-tags {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 0.4em;
-	}
-
-	.tag {
-		font-size: 0.75em;
-		padding: 0.2em 0.6em;
-		background: var(--accent-light);
-		color: var(--accent-dark);
-		border-radius: 12px;
-		font-weight: 600;
-	}
-
-	.card-title {
-		font-size: 0.98em;
-		line-height: 1.5;
-		margin: 0 0 0.6em;
-		color: var(--text);
-		font-weight: 700;
-	}
-
-	.card-desc {
-		font-size: 0.85em;
-		color: var(--text-secondary);
-		line-height: 1.6;
-		margin: 0 0 auto;
-		flex: 1;
-	}
-
-	.card-date {
-		font-size: 0.8em;
-		color: var(--text-secondary);
-		margin: 0.8em 0 0;
-	}
-
-	.no-results {
-		color: var(--text-secondary);
-		text-align: center;
-		padding: 3em 0;
-	}
-
-	@media (max-width: 720px) {
-		.card-grid {
-			grid-template-columns: 1fr;
-		}
-	}
-
-	@media (min-width: 721px) and (max-width: 960px) {
-		.card-grid {
-			grid-template-columns: repeat(2, 1fr);
-		}
-	}
+  @media (max-width: 720px) {
+    .category-grid {
+      grid-template-columns: 1fr;
+    }
+  }
 </style>
