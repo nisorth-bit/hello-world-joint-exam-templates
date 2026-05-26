@@ -1,0 +1,531 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Footer from '../../components/Footer.astro';
+import Header from '../../components/Header.astro';
+import { SITE_TITLE } from '../../consts';
+---
+
+<!doctype html>
+<html lang="ja">
+  <head>
+    <BaseHead
+      title={`テストステロン補充療法（TRT）| ${SITE_TITLE}`}
+      description="疲れ・気力低下・EDの原因はテストステロン低下かもしれません。Vivo Clinicでは塗布薬によるTRTをオンラインで処方。全国対応・自由診療。"
+    />
+  </head>
+  <body>
+    <Header />
+    <main class="lp-main">
+
+      <!-- Hero -->
+      <section class="hero">
+        <p class="label">男性更年期・LOH症候群</p>
+        <h1>疲れ・気力低下・ED<br />それはテストステロン低下かもしれません</h1>
+        <p class="hero-sub">自宅から・スマホで・全国対応。塗布薬によるテストステロン補充療法（TRT）をオンラインで。</p>
+        <a href="/about#reservation" class="btn-primary">無料相談・予約する</a>
+      </section>
+
+      <!-- Checklist -->
+      <section class="section">
+        <h2 class="section-title">こんな症状はありませんか？</h2>
+        <ul class="checklist">
+          <li>以前より疲れやすく、回復に時間がかかる</li>
+          <li>やる気・気力・集中力が落ちた</li>
+          <li>性欲の低下、EDが気になる</li>
+          <li>眠りが浅い、夜中に目が覚める</li>
+          <li>気分が落ち込みやすい、イライラする</li>
+          <li>筋肉がつきにくく、体脂肪が増えた</li>
+          <li>「歳のせい」と諦めていた不調がある</li>
+        </ul>
+        <p class="checklist-note">3つ以上当てはまる場合、LOH症候群（男性更年期障害）の可能性があります。</p>
+      </section>
+
+      <!-- Cause -->
+      <section class="section section-alt">
+        <h2 class="section-title">原因：テストステロンの低下</h2>
+        <div class="cause-grid">
+          <div class="cause-card">
+            <div class="cause-num">30代</div>
+            <p>テストステロンが緩やかに低下し始める</p>
+          </div>
+          <div class="cause-card">
+            <div class="cause-num">40〜50代</div>
+            <p>低下が加速。疲労・性機能・気分への影響が出始める</p>
+          </div>
+          <div class="cause-card">
+            <div class="cause-num">60代〜</div>
+            <p>慢性的な低値が続き、骨密度・筋肉量にも影響</p>
+          </div>
+        </div>
+        <p class="cause-note">テストステロンは男性の活力・筋肉・性機能・気分を調節する重要なホルモンです。加齢以外にも、ストレス・睡眠不足・肥満が低下を加速させます。</p>
+      </section>
+
+      <!-- Treatment -->
+      <section class="section">
+        <h2 class="section-title">治療：塗布薬によるTRT</h2>
+        <div class="treatment-grid">
+          <div class="treatment-card">
+            <h3>テストステロンゲル</h3>
+            <p>毎日、肩や二の腕に塗るだけ。注射が不要で痛みがなく、自宅で継続しやすい。</p>
+          </div>
+          <div class="treatment-card">
+            <h3>血液検査で効果を確認</h3>
+            <p>初回・3ヶ月後に血液検査を実施。テストステロン値を測定し、用量を最適化します。</p>
+          </div>
+          <div class="treatment-card">
+            <h3>郵送処方・全国対応</h3>
+            <p>診察はスマホ・PCで完結。薬は自宅に郵送されます。通院不要。</p>
+          </div>
+        </div>
+        <p class="treatment-note">※注射製剤（エナント酸テストステロン）は保険適用ありますが、塗布薬は自由診療となります。当院では塗布薬を中心に処方しています。</p>
+      </section>
+
+      <!-- Pricing -->
+      <section class="section section-alt">
+        <h2 class="section-title">料金（税込）</h2>
+        <div class="price-table">
+          <div class="price-row">
+            <div class="price-label">初診料（問診・処方方針の決定）</div>
+            <div class="price-amount">6,600円</div>
+          </div>
+          <div class="price-row">
+            <div class="price-label">月額（管理料＋薬剤＋郵送）</div>
+            <div class="price-amount highlight">16,500円</div>
+          </div>
+          <div class="price-row">
+            <div class="price-label">血液検査（初回・3ヶ月毎）</div>
+            <div class="price-amount">5,500円</div>
+          </div>
+        </div>
+        <p class="price-note">月額は管理料・薬剤代・郵送料をすべて含みます。初月は初診料＋月額＋血液検査で合計28,600円。2ヶ月目以降は月額のみ16,500円。</p>
+      </section>
+
+      <!-- Flow -->
+      <section class="section">
+        <h2 class="section-title">診療の流れ</h2>
+        <ol class="flow">
+          <li>
+            <span class="flow-num">1</span>
+            <div>
+              <strong>オンライン予約・問診</strong>
+              <p>スマホで問診票に回答。症状・生活習慣・既往歴を確認します。</p>
+            </div>
+          </li>
+          <li>
+            <span class="flow-num">2</span>
+            <div>
+              <strong>ビデオ診察（約15〜20分）</strong>
+              <p>医師が問診結果をもとに診察。検査が必要な場合は近くの検査機関をご案内します。</p>
+            </div>
+          </li>
+          <li>
+            <span class="flow-num">3</span>
+            <div>
+              <strong>薬剤郵送・治療開始</strong>
+              <p>処方後3〜5日で自宅に届きます。毎月定期処方で継続治療。</p>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <!-- FAQ -->
+      <section class="section section-alt">
+        <h2 class="section-title">よくある質問</h2>
+        <div class="faq">
+          <div class="faq-item">
+            <div class="faq-q">保険は使えますか？</div>
+            <div class="faq-a">塗布薬によるTRTは自由診療（全額自己負担）となります。注射製剤は保険適用がありますが、当院ではオンライン診療の特性上、塗布薬を中心に処方しています。</div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q">効果はいつ頃から感じますか？</div>
+            <div class="faq-a">個人差がありますが、多くの方は3〜6週間で気力・体力の改善を感じ始めます。性機能への効果は2〜3ヶ月程度かかる場合があります。</div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q">副作用はありますか？</div>
+            <div class="faq-a">多血症（赤血球増加）、ニキビ、皮膚刺激などが起こることがあります。定期的な血液検査で安全性を確認しながら治療を進めます。前立腺疾患のある方は適応外となります。</div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q">いつでもやめられますか？</div>
+            <div class="faq-a">いつでも中止できます。ただし突然やめると症状が戻ることがありますので、医師と相談しながら減量・中止するのが望ましいです。</div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q">どんな薬ですか？</div>
+            <div class="faq-a">テストステロンゲルを処方します。1日1回、肩・二の腕・腹部などに塗布します。入浴後に塗ると吸収が良好です。</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section class="cta-section">
+        <p class="cta-lead">まずはオンラインで相談から</p>
+        <h2>症状が気になったら、気軽にご相談ください</h2>
+        <p>問診・診察はすべてスマホで完結。全国どこからでも受診できます。</p>
+        <a href="/about#reservation" class="btn-primary btn-large">診療を予約する</a>
+      </section>
+
+    </main>
+    <Footer />
+  </body>
+</html>
+
+<style>
+  .lp-main {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .section {
+    padding: 4em 1em;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .section-alt {
+    background: var(--bg-subtle);
+    max-width: 100%;
+    padding: 4em 1em;
+  }
+
+  .section-alt > * {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section-title {
+    font-size: 1.5em;
+    margin: 0 0 1.2em;
+    color: var(--text);
+    border-left: 4px solid var(--accent);
+    padding-left: 0.6em;
+  }
+
+  /* Hero */
+  .hero {
+    background: linear-gradient(135deg, #EAF5F0 0%, #FDF8F3 60%);
+    border-bottom: 1px solid var(--border);
+    padding: 5em 1em 4em;
+    text-align: center;
+  }
+
+  .label {
+    display: inline-block;
+    background: var(--accent-light);
+    color: var(--accent-dark);
+    font-size: 0.82em;
+    font-weight: 600;
+    padding: 0.3em 0.9em;
+    border-radius: 20px;
+    margin-bottom: 1em;
+  }
+
+  .hero h1 {
+    font-size: 2em;
+    line-height: 1.4;
+    margin: 0 0 0.6em;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-sub {
+    color: var(--text-secondary);
+    margin-bottom: 2em;
+    font-size: 1em;
+  }
+
+  /* Checklist */
+  .checklist {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.7em;
+  }
+
+  .checklist li {
+    padding: 0.8em 1em 0.8em 2.5em;
+    background: var(--bg-subtle);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    font-size: 0.92em;
+    position: relative;
+  }
+
+  .checklist li::before {
+    content: '□';
+    position: absolute;
+    left: 0.9em;
+    color: var(--accent);
+    font-weight: 700;
+  }
+
+  .checklist-note {
+    font-size: 0.88em;
+    color: var(--accent-dark);
+    font-weight: 600;
+    background: var(--accent-light);
+    padding: 0.8em 1em;
+    border-radius: 6px;
+    margin: 0;
+  }
+
+  /* Cause */
+  .cause-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.2em;
+    margin-bottom: 1.5em;
+  }
+
+  .cause-card {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.5em 1em;
+    text-align: center;
+  }
+
+  .cause-num {
+    font-size: 1.1em;
+    font-weight: 700;
+    color: var(--accent);
+    margin-bottom: 0.5em;
+  }
+
+  .cause-card p {
+    font-size: 0.88em;
+    color: var(--text-secondary);
+    margin: 0;
+    line-height: 1.6;
+  }
+
+  .cause-note {
+    font-size: 0.9em;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  /* Treatment */
+  .treatment-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.2em;
+    margin-bottom: 1em;
+  }
+
+  .treatment-card {
+    background: var(--bg-subtle);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.5em;
+  }
+
+  .treatment-card h3 {
+    font-size: 0.95em;
+    margin: 0 0 0.6em;
+    color: var(--accent-dark);
+  }
+
+  .treatment-card p {
+    font-size: 0.88em;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  .treatment-note {
+    font-size: 0.82em;
+    color: var(--text-secondary);
+    margin: 0;
+  }
+
+  /* Pricing */
+  .price-table {
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 1em;
+    background: #fff;
+  }
+
+  .price-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 1.5em;
+    border-bottom: 1px solid var(--border);
+    font-size: 0.95em;
+  }
+
+  .price-row:last-child {
+    border-bottom: none;
+  }
+
+  .price-label {
+    color: var(--text);
+  }
+
+  .price-amount {
+    font-weight: 700;
+    color: var(--text);
+    white-space: nowrap;
+  }
+
+  .price-amount.highlight {
+    font-size: 1.15em;
+    color: var(--accent-dark);
+  }
+
+  .price-note {
+    font-size: 0.85em;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  /* Flow */
+  .flow {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+  }
+
+  .flow li {
+    display: flex;
+    gap: 1.2em;
+    align-items: flex-start;
+  }
+
+  .flow-num {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.2em;
+    height: 2.2em;
+    min-width: 2.2em;
+    background: var(--accent);
+    color: #fff;
+    border-radius: 50%;
+    font-weight: 700;
+    font-size: 0.95em;
+  }
+
+  .flow strong {
+    display: block;
+    margin-bottom: 0.3em;
+    color: var(--text);
+  }
+
+  .flow p {
+    font-size: 0.9em;
+    color: var(--text-secondary);
+    margin: 0;
+    line-height: 1.6;
+  }
+
+  /* FAQ */
+  .faq {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .faq-item {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .faq-q {
+    padding: 1em 1.2em;
+    font-weight: 700;
+    font-size: 0.95em;
+    background: var(--bg-subtle);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .faq-q::before {
+    content: 'Q. ';
+    color: var(--accent);
+  }
+
+  .faq-a {
+    padding: 1em 1.2em;
+    font-size: 0.9em;
+    color: var(--text-secondary);
+    line-height: 1.7;
+  }
+
+  /* CTA */
+  .cta-section {
+    background: linear-gradient(135deg, #1E6A57, #2A8C74);
+    color: #fff;
+    text-align: center;
+    padding: 5em 1em;
+  }
+
+  .cta-lead {
+    font-size: 0.88em;
+    opacity: 0.85;
+    margin: 0 0 0.5em;
+    letter-spacing: 0.05em;
+  }
+
+  .cta-section h2 {
+    color: #fff;
+    font-size: 1.6em;
+    margin: 0 0 0.6em;
+  }
+
+  .cta-section p {
+    opacity: 0.9;
+    margin-bottom: 2em;
+  }
+
+  /* Buttons */
+  .btn-primary {
+    display: inline-block;
+    padding: 0.75em 2em;
+    background: var(--accent);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 1em;
+    transition: background 0.15s;
+  }
+
+  .btn-primary:hover {
+    background: var(--accent-dark);
+    color: #fff;
+  }
+
+  .btn-large {
+    padding: 1em 2.5em;
+    font-size: 1.05em;
+    background: #fff;
+    color: var(--accent-dark);
+  }
+
+  .btn-large:hover {
+    background: var(--accent-light);
+    color: var(--accent-dark);
+  }
+
+  @media (max-width: 720px) {
+    .hero h1 { font-size: 1.5em; }
+    .checklist { grid-template-columns: 1fr; }
+    .cause-grid { grid-template-columns: 1fr; }
+    .treatment-grid { grid-template-columns: 1fr; }
+    .price-row { flex-direction: column; align-items: flex-start; gap: 0.3em; }
+  }
+</style>

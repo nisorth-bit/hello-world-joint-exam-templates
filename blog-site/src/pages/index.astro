@@ -18,7 +18,7 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 				<p class="hero-label">オンライン専門クリニック</p>
 				<h1>ホルモンと睡眠で、<br />本来の活力を取り戻す</h1>
 				<p class="hero-sub">
-					男性更年期（LOH症候群）・女性更年期・睡眠障害を、<br class="pc-only" />
+					男性更年期（LOH症候群）・睡眠薬減薬を、<br class="pc-only" />
 					自宅から・スマホで・全国対応のオンライン診療。
 				</p>
 				<div class="hero-actions">
@@ -27,37 +27,34 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 				</div>
 				<div class="hero-tags">
 					<span>男性更年期・TRT</span>
-					<span>女性更年期・HRT</span>
-					<span>睡眠障害</span>
+					<span>睡眠薬減薬・脱BZD</span>
 					<span>全国対応</span>
 					<span>自由診療</span>
+					<span>オンライン完結</span>
 				</div>
 			</div>
 		</section>
 
 		<section class="pillars">
 			<div class="pillars-inner">
-				<div class="pillar">
+				<a href="/trt/" class="pillar">
 					<div class="pillar-icon">◎</div>
 					<h3>男性更年期（LOH症候群）</h3>
 					<p>疲れ・気力低下・ED——「歳のせい」と放置しないために。テストステロン補充療法（TRT）を自由診療でオンライン処方。</p>
-				</div>
-				<div class="pillar">
+					<span class="pillar-link">詳しく見る →</span>
+				</a>
+				<a href="/bzd/" class="pillar">
 					<div class="pillar-icon">◎</div>
-					<h3>女性更年期</h3>
-					<p>ほてり・動悸・気分の波。HRT（ホルモン補充療法）・漢方・低用量ピルをオンラインで相談・処方。</p>
-				</div>
-				<div class="pillar">
-					<div class="pillar-icon">◎</div>
-					<h3>睡眠障害</h3>
-					<p>不眠・睡眠時無呼吸・日中の眠気。保険診療で対応。睡眠の質の改善が、ホルモンバランスにも直結します。</p>
-				</div>
+					<h3>睡眠薬・ベンゾジアゼピン減薬</h3>
+					<p>「やめたいのに、やめられない」——長年の睡眠薬から抜け出すための専門的な減薬プログラム。</p>
+					<span class="pillar-link">詳しく見る →</span>
+				</a>
 			</div>
 		</section>
 
 		<section class="latest-posts">
 			<div class="latest-inner">
-				<h2>最新コラム</h2>
+				<h2>コラム</h2>
 				<p><a href="/blog">コラム一覧を見る →</a></p>
 			</div>
 		</section>
@@ -167,18 +164,28 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 	}
 
 	.pillars-inner {
-		max-width: 960px;
+		max-width: 800px;
 		margin: 0 auto;
 		display: grid;
-		grid-template-columns: repeat(3, 1fr);
+		grid-template-columns: repeat(2, 1fr);
 		gap: 2em;
 	}
 
 	.pillar {
+		display: flex;
+		flex-direction: column;
 		background-color: var(--bg-subtle);
 		border: 1px solid var(--border);
 		border-radius: 10px;
 		padding: 2em 1.5em;
+		text-decoration: none;
+		color: inherit;
+		transition: box-shadow 0.15s, border-color 0.15s;
+	}
+
+	.pillar:hover {
+		box-shadow: var(--box-shadow);
+		border-color: var(--accent);
 	}
 
 	.pillar-icon {
@@ -197,7 +204,14 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 		font-size: 0.9em;
 		color: var(--text-secondary);
 		line-height: 1.7;
-		margin: 0;
+		margin: 0 0 1em;
+		flex: 1;
+	}
+
+	.pillar-link {
+		font-size: 0.88em;
+		font-weight: 600;
+		color: var(--accent);
 	}
 
 	/* Latest posts */

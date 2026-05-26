@@ -1,0 +1,529 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Footer from '../../components/Footer.astro';
+import Header from '../../components/Header.astro';
+import { SITE_TITLE } from '../../consts';
+---
+
+<!doctype html>
+<html lang="ja">
+  <head>
+    <BaseHead
+      title={`睡眠薬・ベンゾジアゼピン減薬外来 | ${SITE_TITLE}`}
+      description="「やめたいのに、やめられない」睡眠薬・ベンゾジアゼピン系薬の減薬を専門的にサポート。オンライン診療・全国対応・自由診療。"
+    />
+  </head>
+  <body>
+    <Header />
+    <main class="lp-main">
+
+      <!-- Hero -->
+      <section class="hero">
+        <p class="label">睡眠薬・ベンゾジアゼピン減薬外来</p>
+        <h1>「やめたいのに、やめられない」<br />その睡眠薬、一緒に減らしましょう</h1>
+        <p class="hero-sub">長年の睡眠薬服用から抜け出すための、専門的な減薬プログラム。オンライン・全国対応。</p>
+        <a href="/about#reservation" class="btn-primary">無料相談・予約する</a>
+      </section>
+
+      <!-- Checklist -->
+      <section class="section">
+        <h2 class="section-title">こんなお悩みはありませんか？</h2>
+        <ul class="checklist">
+          <li>睡眠薬なしでは眠れない状態が続いている</li>
+          <li>量が増えてきた、または効きが悪くなった</li>
+          <li>昼間にぼーっとする、記憶が曖昧なことがある</li>
+          <li>転倒・ふらつきが心配になってきた</li>
+          <li>「薬に頼っている」ことへの罪悪感がある</li>
+          <li>やめようとしたが、離脱症状で挫折した</li>
+          <li>主治医に相談しても「続けましょう」と言われる</li>
+        </ul>
+        <p class="checklist-note">ベンゾジアゼピン系・非ベンゾジアゼピン系睡眠薬は、長期服用で依存が形成されます。急にやめると危険ですが、適切なプログラムで安全に減薬できます。</p>
+      </section>
+
+      <!-- What is BZD -->
+      <section class="section section-alt">
+        <h2 class="section-title">ベンゾジアゼピン依存とは</h2>
+        <div class="info-grid">
+          <div class="info-card">
+            <h3>対象となる薬</h3>
+            <p>フルニトラゼパム・トリアゾラム・ニトラゼパムなどのベンゾジアゼピン系、ゾルピデム・エスゾピクロンなどの非ベンゾジアゼピン系（Z薬）が含まれます。</p>
+          </div>
+          <div class="info-card">
+            <h3>なぜやめにくいのか</h3>
+            <p>数ヶ月の服用で身体依存が形成されます。急な中断は不安・不眠・発汗・震えなどの離脱症状を引き起こすため、自己判断でのやめ方は危険です。</p>
+          </div>
+          <div class="info-card">
+            <h3>減薬の原則</h3>
+            <p>Ashton法などを参考に、数ヶ月〜2年かけてゆっくりと減量します。焦らず、身体に合わせたペースで進めることが成功のカギです。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Treatment -->
+      <section class="section">
+        <h2 class="section-title">当院の減薬プログラム</h2>
+        <div class="program-steps">
+          <div class="program-step">
+            <div class="step-badge">STEP 1</div>
+            <h3>現状評価（1〜2ヶ月）</h3>
+            <p>服薬歴・依存度・睡眠状態・生活習慣を詳しく聴取。個別の減薬計画を立案します。</p>
+          </div>
+          <div class="program-step">
+            <div class="step-badge">STEP 2</div>
+            <h3>漸減開始（3〜9ヶ月）</h3>
+            <p>月10〜25%ずつ、身体への負担を最小限にしながら減量。月1回の診察で調整します。</p>
+          </div>
+          <div class="program-step">
+            <div class="step-badge">STEP 3</div>
+            <h3>後半減薬・中止（6〜18ヶ月）</h3>
+            <p>少量になるほど慎重に。睡眠衛生指導・リラクゼーション技法を並行して習得します。</p>
+          </div>
+          <div class="program-step">
+            <div class="step-badge">STEP 4</div>
+            <h3>中止後フォロー（3〜6ヶ月）</h3>
+            <p>再燃予防・睡眠の定着を確認。必要に応じて非薬物療法（CBT-I）を継続します。</p>
+          </div>
+        </div>
+        <p class="program-note">総治療期間の目安：1〜2年。個人差がありますので、無理のないペースで進めます。</p>
+      </section>
+
+      <!-- Pricing -->
+      <section class="section section-alt">
+        <h2 class="section-title">料金（税込）</h2>
+        <div class="price-table">
+          <div class="price-row">
+            <div class="price-label">初診料（問診・プログラム説明・処方）</div>
+            <div class="price-amount">6,600円</div>
+          </div>
+          <div class="price-row">
+            <div class="price-label">月額（管理料＋処方＋薬剤郵送）</div>
+            <div class="price-amount highlight">9,900円</div>
+          </div>
+        </div>
+        <p class="price-note">月額には医師との月1回の診察・処方・薬剤代・郵送料が含まれます。初月は初診料＋月額で合計16,500円。2ヶ月目以降は月額のみ9,900円。治療期間の目安は1〜2年です。</p>
+      </section>
+
+      <!-- Flow -->
+      <section class="section">
+        <h2 class="section-title">診療の流れ</h2>
+        <ol class="flow">
+          <li>
+            <span class="flow-num">1</span>
+            <div>
+              <strong>オンライン予約・問診</strong>
+              <p>現在の服薬内容・服用期間・過去の中断歴などを問診票に入力してください。</p>
+            </div>
+          </li>
+          <li>
+            <span class="flow-num">2</span>
+            <div>
+              <strong>ビデオ診察（約20〜30分）</strong>
+              <p>詳しい状況をお聞きし、個別の減薬計画を立案します。焦らず丁寧に進める方針を共有します。</p>
+            </div>
+          </li>
+          <li>
+            <span class="flow-num">3</span>
+            <div>
+              <strong>処方・郵送・治療開始</strong>
+              <p>処方薬は自宅に郵送されます。月1回の診察で状況を確認しながら進めます。</p>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <!-- FAQ -->
+      <section class="section section-alt">
+        <h2 class="section-title">よくある質問</h2>
+        <div class="faq">
+          <div class="faq-item">
+            <div class="faq-q">保険は使えますか？</div>
+            <div class="faq-a">当院の減薬プログラムは自由診療（全額自己負担）となります。保険診療の精神科・心療内科でも睡眠薬の処方は可能ですが、減薬に特化したプログラムは保険では対応しにくい部分があります。</div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q">今の主治医に内緒で受診できますか？</div>
+            <div class="faq-a">受診は可能ですが、処方の重複を避けるため、現在の処方医にも状況を共有されることをお勧めします。ご希望の場合は紹介状のテンプレートをお渡しします。</div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q">必ずやめられますか？</div>
+            <div class="faq-a">全員が完全中止に至るわけではありませんが、「減らすこと」自体に意味があります。副作用リスクの軽減・日中の覚醒度改善など、部分的な減薬でも効果があります。</div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q">離脱症状が怖いのですが</div>
+            <div class="faq-a">当院の漸減法ではゆっくり減量するため、急な中断と比べて離脱症状は大幅に軽減されます。症状が強い場合は減量ペースを調整します。</div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q">眠れなくなりませんか？</div>
+            <div class="faq-a">減薬中は一時的に眠りにくくなることがあります。睡眠衛生指導・CBT-Iの技法を並行して習得することで、薬なしでも眠れる状態を作っていきます。</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section class="cta-section">
+        <p class="cta-lead">まずは相談だけでも構いません</p>
+        <h2>「やめたい」という気持ちが、第一歩です</h2>
+        <p>減薬のペースや不安なことを、オンラインで気軽にご相談ください。</p>
+        <a href="/about#reservation" class="btn-primary btn-large">診療を予約する</a>
+      </section>
+
+    </main>
+    <Footer />
+  </body>
+</html>
+
+<style>
+  .lp-main {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .section {
+    padding: 4em 1em;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .section-alt {
+    background: var(--bg-subtle);
+    max-width: 100%;
+    padding: 4em 1em;
+  }
+
+  .section-alt > * {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section-title {
+    font-size: 1.5em;
+    margin: 0 0 1.2em;
+    color: var(--text);
+    border-left: 4px solid var(--accent);
+    padding-left: 0.6em;
+  }
+
+  /* Hero */
+  .hero {
+    background: linear-gradient(135deg, #E8F4F0 0%, #FDF8F3 60%);
+    border-bottom: 1px solid var(--border);
+    padding: 5em 1em 4em;
+    text-align: center;
+  }
+
+  .label {
+    display: inline-block;
+    background: var(--accent-light);
+    color: var(--accent-dark);
+    font-size: 0.82em;
+    font-weight: 600;
+    padding: 0.3em 0.9em;
+    border-radius: 20px;
+    margin-bottom: 1em;
+  }
+
+  .hero h1 {
+    font-size: 1.9em;
+    line-height: 1.45;
+    margin: 0 0 0.6em;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-sub {
+    color: var(--text-secondary);
+    margin-bottom: 2em;
+    font-size: 1em;
+  }
+
+  /* Checklist */
+  .checklist {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.7em;
+  }
+
+  .checklist li {
+    padding: 0.8em 1em 0.8em 2.5em;
+    background: var(--bg-subtle);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    font-size: 0.92em;
+    position: relative;
+  }
+
+  .checklist li::before {
+    content: '□';
+    position: absolute;
+    left: 0.9em;
+    color: var(--accent);
+    font-weight: 700;
+  }
+
+  .checklist-note {
+    font-size: 0.88em;
+    color: var(--accent-dark);
+    font-weight: 600;
+    background: var(--accent-light);
+    padding: 0.8em 1em;
+    border-radius: 6px;
+    margin: 0;
+  }
+
+  /* Info grid */
+  .info-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.2em;
+  }
+
+  .info-card {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.5em;
+  }
+
+  .info-card h3 {
+    font-size: 0.95em;
+    margin: 0 0 0.6em;
+    color: var(--accent-dark);
+  }
+
+  .info-card p {
+    font-size: 0.88em;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  /* Program */
+  .program-steps {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.2em;
+    margin-bottom: 1em;
+  }
+
+  .program-step {
+    background: var(--bg-subtle);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.5em;
+  }
+
+  .step-badge {
+    display: inline-block;
+    background: var(--accent);
+    color: #fff;
+    font-size: 0.78em;
+    font-weight: 700;
+    padding: 0.2em 0.7em;
+    border-radius: 20px;
+    margin-bottom: 0.7em;
+    letter-spacing: 0.05em;
+  }
+
+  .program-step h3 {
+    font-size: 0.95em;
+    margin: 0 0 0.5em;
+    color: var(--text);
+  }
+
+  .program-step p {
+    font-size: 0.88em;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  .program-note {
+    font-size: 0.88em;
+    color: var(--text-secondary);
+    margin: 0;
+    font-style: italic;
+  }
+
+  /* Pricing */
+  .price-table {
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 1em;
+    background: #fff;
+  }
+
+  .price-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 1.5em;
+    border-bottom: 1px solid var(--border);
+    font-size: 0.95em;
+  }
+
+  .price-row:last-child {
+    border-bottom: none;
+  }
+
+  .price-amount {
+    font-weight: 700;
+    white-space: nowrap;
+  }
+
+  .price-amount.highlight {
+    font-size: 1.15em;
+    color: var(--accent-dark);
+  }
+
+  .price-note {
+    font-size: 0.85em;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  /* Flow */
+  .flow {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+  }
+
+  .flow li {
+    display: flex;
+    gap: 1.2em;
+    align-items: flex-start;
+  }
+
+  .flow-num {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.2em;
+    height: 2.2em;
+    min-width: 2.2em;
+    background: var(--accent);
+    color: #fff;
+    border-radius: 50%;
+    font-weight: 700;
+    font-size: 0.95em;
+  }
+
+  .flow strong {
+    display: block;
+    margin-bottom: 0.3em;
+  }
+
+  .flow p {
+    font-size: 0.9em;
+    color: var(--text-secondary);
+    margin: 0;
+    line-height: 1.6;
+  }
+
+  /* FAQ */
+  .faq {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .faq-item {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .faq-q {
+    padding: 1em 1.2em;
+    font-weight: 700;
+    font-size: 0.95em;
+    background: var(--bg-subtle);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .faq-q::before {
+    content: 'Q. ';
+    color: var(--accent);
+  }
+
+  .faq-a {
+    padding: 1em 1.2em;
+    font-size: 0.9em;
+    color: var(--text-secondary);
+    line-height: 1.7;
+  }
+
+  /* CTA */
+  .cta-section {
+    background: linear-gradient(135deg, #1E6A57, #2A8C74);
+    color: #fff;
+    text-align: center;
+    padding: 5em 1em;
+  }
+
+  .cta-lead {
+    font-size: 0.88em;
+    opacity: 0.85;
+    margin: 0 0 0.5em;
+    letter-spacing: 0.05em;
+  }
+
+  .cta-section h2 {
+    color: #fff;
+    font-size: 1.6em;
+    margin: 0 0 0.6em;
+  }
+
+  .cta-section p {
+    opacity: 0.9;
+    margin-bottom: 2em;
+  }
+
+  .btn-primary {
+    display: inline-block;
+    padding: 0.75em 2em;
+    background: var(--accent);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: background 0.15s;
+  }
+
+  .btn-primary:hover {
+    background: var(--accent-dark);
+    color: #fff;
+  }
+
+  .btn-large {
+    padding: 1em 2.5em;
+    font-size: 1.05em;
+    background: #fff;
+    color: var(--accent-dark);
+  }
+
+  .btn-large:hover {
+    background: var(--accent-light);
+    color: var(--accent-dark);
+  }
+
+  @media (max-width: 720px) {
+    .hero h1 { font-size: 1.4em; }
+    .checklist { grid-template-columns: 1fr; }
+    .info-grid { grid-template-columns: 1fr; }
+    .program-steps { grid-template-columns: 1fr; }
+    .price-row { flex-direction: column; align-items: flex-start; gap: 0.3em; }
+  }
+</style>
