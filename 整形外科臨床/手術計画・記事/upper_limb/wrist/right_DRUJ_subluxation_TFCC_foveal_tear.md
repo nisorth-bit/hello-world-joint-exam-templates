@@ -263,23 +263,59 @@ IOM損傷が確認された場合はS-K単独では前腕縦方向不安定性�
 
 ---
 
-### Step 9：尺骨近位断端の安定化（ECU tenodesis）
+### Step 9：尺骨近位断端の安定化
 
-尺骨近位断端の背側転位・掌側転位を防ぐための軟部組織安定化を行う[^5]。
+尺骨近位断端の背側・掌側転位（radioulnar convergence）を防ぐための軟部組織安定化を行う。症例背景に応じて以下3段階から選択する。
 
-#### ECU半slip tenodesis法（推奨）
+#### 症例別選択基準
 
-1. ECU腱の尺側半分を近位に向けてstrip（尺側半分のみ切離、遠位付着は温存）
-2. このhalf-slipを尺骨近位断端背側の骨孔（または骨膜・periosteum）に通す
-3. 前腕中間位でECU half-slipを適切な張力で縫合・固定する
-4. 前腕回旋時に尺骨断端が安定していることを確認する
+| 症例 | 推奨術式 |
+|---|---|
+| RA・軟部組織脆弱・複数腱使用可能 | **第1候補：Breen-Jupiter変法** |
+| 外傷後・OA・軟部組織良好 | **第2候補：ECU half-slip tenodesis** |
+| 軽度不安定性・予防的安定化のみ | **第3候補：ECU腱鞘・骨膜縫縮** |
 
-#### 代替法（ECU tenodesis困難な場合）
+---
+
+#### 第1候補：Breen-Jupiter変法（RA・軟部組織脆弱例）[^6][^10]
+
+背側（ECU）と掌側（FCU/FCR）の両方向から断端を制動する、最も強固な安定化法。
+
+1. ECU腱の一部（短冊状）を腱実質から遊離し、断端背側骨孔に通す
+2. FCU（またはFCR）腱から同様の短冊状腱を採取し、断端掌側骨孔に通す
+3. 前腕中間位で両腱短冊を適切な張力で縫合・固定する
+4. 背側・掌側双方向の制動を確認する
+
+> RA症例や軟部組織脆弱例では、ECU単独では制動力が不十分なことがある。両方向制動により断端安定性が向上する[^6]。
+
+---
+
+#### 第2候補：ECU half-slip tenodesis（外傷後・OA例）[^5][^7][^8]
+
+外傷後・変形性関節症症例の標準的安定化法。ECU腱の連続性を維持しながら腱の半側を骨孔に通す。
+
+1. ECU腱の尺側半分を近位に向けてstrip（half-slip；尺側縦走切離、遠位付着は温存）
+2. 尺骨近位断端背側に骨孔を作製（または骨膜・腱鞘を利用）
+3. このhalf-slipを骨孔に通す（または骨膜・腱鞘ループに固定する）
+4. 前腕中間位でECU half-slipを適切な張力で縫合・固定する
+5. 前腕回旋時に尺骨断端が安定していることを確認する
+
+> ECU腱osteofibrous tunnelはそのまま温存し、ECU腱本体（橈側半分）の機能を損なわないことが重要である[^8]。
+
+---
+
+#### 第3候補：ECU腱鞘・骨膜縫縮（軽度予防的安定化）[^9][^11]
+
+軽度の断端不安定性予防のみを目的とした簡便な方法。高度不安定性・RA症例には適応しない。
 
 - ECU腱osteofibrous tunnel sheath・周囲筋膜を尺骨断端上にoverlapして縫合
-- 偽関節部の骨膜を温存し、軟部組織で包む形で安定化
+- 偽関節部の骨膜を温存し、軟部組織で包む形で安定化する
 
-#### 注意
+> 制動力は第1・第2候補に劣る。RA・脱臼傾向の強い症例では上記のtenodesis法を選択する[^9]。
+
+---
+
+#### 注意（共通）
 
 - **骨片の介在（bone graft interposition）は行わない**：偽関節部の骨性癒合（bridging）の原因となり回旋制限を来す[^3]
 - Pronator quadratusの剥離は最小限にとどめる
@@ -336,7 +372,7 @@ IOM損傷が確認された場合はS-K単独では前腕縦方向不安定性�
 
 8. **偽関節部への骨片介在**：切除骨片やbone debrisを偽関節部に残置すると骨性癒合（bridging）の原因となり回旋制限を来す。arthrodesis部への移植のみに使用し、偽関節部は骨片なしとする[^3]。
 
-9. **尺骨近位断端不安定性**：ECU tenodesis・筋膜縫着による断端安定化を丁寧に行わないと術後の断端疼痛・radioulnar convergenceを来す。長期成績の21%に合併症（うち断端不安定性を含む）が報告されている[^2]。
+9. **尺骨近位断端不安定性**：断端安定化を丁寧に行わないと術後の断端疼痛・radioulnar convergenceを来す。症例に応じてBreen-Jupiter変法（RA/軟部組織脆弱）・ECU half-slip tenodesis（外傷後/OA）・ECU腱鞘縫縮（軽度予防）の3段階で選択する[^6][^7][^8][^9]。長期成績の21%に合併症（うち断端不安定性を含む）が報告されている[^2]。
 
 10. **前腕回旋位での固定**：回内または回外強制位で固定するとDRUJ固定部に捻転力がかかる。**必ず中間位**で固定・閉創する。
 
@@ -364,4 +400,16 @@ IOM損傷が確認された場合はS-K単独では前腕縦方向不安定性�
 
 [^4]: Modified Sauvé-Kapandji procedure for DRUJ disorders of osteoarthritis and rheumatoid arthritis. *ScienceDirect* 2018. [https://www.sciencedirect.com/science/article/abs/pii/S0949265818300599](https://www.sciencedirect.com/science/article/abs/pii/S0949265818300599)
 
-[^5]: Stabilization of the Proximal Ulnar Stump after Darrach or Sauvé-Kapandji Procedure Using the ECU Tendon. *PMC* 2008. [https://pmc.ncbi.nlm.nih.gov/articles/PMC2584221/](https://pmc.ncbi.nlm.nih.gov/articles/PMC2584221/)
+[^5]: Chu PJ, et al. Stabilization of the Proximal Ulnar Stump after Darrach or Sauvé-Kapandji Procedure Using the ECU Tendon. *J Hand Surg Am* 2008; 33(8):1247-52. PMID 18780014. [https://pmc.ncbi.nlm.nih.gov/articles/PMC2584221/](https://pmc.ncbi.nlm.nih.gov/articles/PMC2584221/)
+
+[^6]: Breen TF, Jupiter JB. Extensor carpi ulnaris and flexor carpi ulnaris tenodesis of the unstable distal ulna. *J Hand Surg Am* 1989; 14(4):612-7. PMID 2754191. [https://pubmed.ncbi.nlm.nih.gov/2754191/](https://pubmed.ncbi.nlm.nih.gov/2754191/)
+
+[^7]: Minami A, et al. Stabilization of the proximal ulnar stump in the Sauvé-Kapandji procedure by using the extensor carpi ulnaris tendon: long-term follow-up studies. *J Hand Surg Am* 2000; 25(5):903-8. PMID 11119666. [https://pubmed.ncbi.nlm.nih.gov/11119666/](https://pubmed.ncbi.nlm.nih.gov/11119666/)
+
+[^8]: Minami A, et al. Modified Sauvé-Kapandji procedure for distal radioulnar joint disorders: a new method for stump stabilization. *J Hand Surg Am* 2006; 31(3):426-31. PMID 16516739. [https://pubmed.ncbi.nlm.nih.gov/16516739/](https://pubmed.ncbi.nlm.nih.gov/16516739/)
+
+[^9]: Lamey DM, Fernandez DL. Results of the modified Sauvé-Kapandji procedure in the treatment of chronic posttraumatic derangement of the distal radioulnar joint. *J Bone Joint Surg Am* 1998; 80(12):1758-69. PMID 9875933. [https://pubmed.ncbi.nlm.nih.gov/9875933/](https://pubmed.ncbi.nlm.nih.gov/9875933/)
+
+[^10]: 谷野善彦ほか. RA手関節に対するSauvé-Kapandji法における尺骨近位断端安定化の工夫. *日手会誌* 2009; 25:758-762.
+
+[^11]: Ohara Y, et al. Outcomes of the Sauvé-Kapandji procedure with proximal ulnar stump stabilization. *Cureus* 2023. PMID 37525807. [https://pubmed.ncbi.nlm.nih.gov/37525807/](https://pubmed.ncbi.nlm.nih.gov/37525807/)
