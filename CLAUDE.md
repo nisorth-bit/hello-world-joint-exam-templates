@@ -11,6 +11,38 @@
 - node_modules / dist / build / .next / coverage / .astro
 - .env・秘密情報・認証情報を含むファイル
 
+## 手術記事作成ルール
+
+ユーザーが手術メモ・術式情報を貼った場合、確認なしに以下のフローで即実行する。
+
+### 実行フロー
+1. mdファイル作成
+2. Notion ページ作成（curl）
+3. notion-page-map.json に追記
+4. sync_to_notion.py で同期
+5. git add → git commit（hookがNotion自動登録を処理）
+
+### ファイル配置
+- 保存先: `整形外科臨床/手術計画・記事/upper_limb/` or `lower_limb/`
+- サブフォルダ: `humerus/` `forearm/` `wrist/` `hand/` `clavicle/` `fractures/` など解剖部位で分類
+- ファイル名: `{side}_{anatomy}_{diagnosis}_{procedure}.md`（スネークケース英語）
+
+### 必須セクション（この順番で）
+1. `# 部位・診断名 手術計画・記録`
+2. `## 術式名`
+3. サマリー表（診断・術式・アプローチ・インプラント・術者・麻酔・体位・出血・特記）
+4. 術前計画（病態・分類表 / インプラント原理・他術式との比較表 / 注意すべき構造表）
+5. 手術手順（Step 1〜N、各ステップに注意事項 blockquote）
+6. 術後方針表
+7. Pitfall（番号付きリスト、参考文献番号付き）
+8. カンファレンス用まとめ（1段落）
+9. 紹介状用まとめ（短縮版、1段落）
+10. 参考文献（`[^N]:` 脚注形式、PMC/PubMed URL付き）
+
+### Notion 親ページID
+- upper_limb: `35165fad-9a7d-8114-805d-f0673560a91a`
+- lower_limb: `35165fad-9a7d-8144-bc1a-fde2952a9450`
+
 ## ブログ作成ルール
 - 既存記事を全部読まない。必要な記事・テンプレート・READMEだけ確認する。
 - まず構成案を出す。本文作成前に対象読者を確認する。
