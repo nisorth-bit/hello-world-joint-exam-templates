@@ -12,6 +12,7 @@
   - MCL/LCL：Valgus-/- Varus-/-
   - 半月板：McMurray-/- Apley-/- Thessaly-/- Ege-/-（必要時）
   - 回旋不安定：Dial-/-（必要時）
+  - 後外側コーナー（PLC）：Reverse pivot shift-/- ER recurvatum-/-
   - PF：Apprehension-/- Grind-/- Patellar tilt-/-（必要時）
   - ITB：Ober-/-（必要時）
 
@@ -172,6 +173,36 @@
 
 ---
 
+### 14. Reverse pivot shift test（リバースピボットシフトテスト）
+
+**目的**：後外側コーナー（PLC: posterolateral corner）損傷による外旋不安定性を評価する。  
+**肢位**：仰臥位、膝関節屈曲90°から伸展位へ。  
+**方法**：検者が脛骨を外旋させた状態で外反ストレスをかけながら膝関節を屈曲90°から伸展させる。  
+**陽性**：伸展20〜30°前後で脛骨外側プラトーが前方へ整復される（clunk感）。  
+**示唆**：PLC損傷（LCL・膝窩腓骨靭帯・膝窩腱損傷）。感度26%、特異度95%。Pivot shift testと逆方向の整復感が特徴。
+
+---
+
+### 15. External rotation recurvatum test（外旋反張テスト）
+
+**目的**：PLC（後外側コーナー）損傷、特に外側関節包・膝窩腱複合体損傷を評価する。  
+**肢位**：仰臥位、検者が両足の母趾を持ち下肢を持ち上げる。  
+**方法**：検者が両足の母趾を把持し、下肢を完全伸展位に持ち上げる。患側の膝の過伸展（hyperextension）と脛骨外旋を観察する。  
+**陽性**：患側膝が過伸展し脛骨が外旋する（患側踵が外旋・内反方向に落ちる）。  
+**示唆**：PLC損傷。感度26%、特異度100%。陽性であれば重篤なPLC損傷（PCL合併を含む）の強い証拠となる。
+
+---
+
+### 16. Ege's test（エーゲテスト）
+
+**目的**：半月板損傷の内側・外側の鑑別に用いる体重負荷下スクリーニングテスト。  
+**肢位**：立位、内側半月板テスト：足を外旋位にして膝屈曲；外側半月板テスト：足を内旋位にして膝屈曲。  
+**方法**：患者が膝を完全屈曲から伸展させる動作を繰り返す。内側半月板：足を外旋（つま先外向き）、外側半月板：足を内旋（つま先内向き）で評価する。  
+**陽性**：関節裂隙部での疼痛・クリック感が誘発される。  
+**示唆**：内側または外側半月板損傷の鑑別。McMurrayより体重負荷下での評価が可能。
+
+---
+
 ## 参考文献（特殊テストの診断精度）
 
 | テスト | 感度 | 特異度 | LR+ | 出典 |
@@ -181,6 +212,8 @@
 | Pivot shift test（ACL） | 55% | 94–96% | 11.6 | Sokal PA et al. BMJ Open Sport Exerc Med 2022 |
 | McMurray test（半月板） | 55% | 77% | 2.4 | Scholten RJ et al. J Fam Pract 2001; PMC75851 |
 | Thessaly test（半月板） | 66–89% | 50–97% | — | Goossens P et al. J Orthop Sports Phys Ther 2015 |
+| Reverse pivot shift（PLC損傷） | 26% | 95% | 5.2 | LaPrade RF et al. Am J Sports Med 2000 |
+| External rotation recurvatum（PLC損傷） | 26% | 100% | — | LaPrade RF et al. Am J Sports Med 2000 |
 
 [^1]: Sokal PA, et al. The diagnostic accuracy of clinical tests for anterior cruciate ligament tears are comparable but the Lachman test has been previously overestimated: a systematic review and meta-analysis. BMJ Open Sport Exerc Med. 2022;8(3):e001414. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9464183/
 [^2]: Scholten RJ, et al. A meta-analysis examining clinical test utilities for assessing meniscal injury. Clin Orthop Relat Res. 2001;(386):246-252. https://www.ncbi.nlm.nih.gov/books/NBK75851/

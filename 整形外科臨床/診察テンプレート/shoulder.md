@@ -9,11 +9,13 @@
 - 特殊テスト（疑う疾患に応じて選択）
   - インピンジメント/滑液包炎：PA-/- Neer-/- Hawkins-/-
   - 腱板：DA-/- EC-/- LS-/- LO-/-
+  - 腱板（肩甲下筋補完）：Bear hug-/- Belly press-/- Napoleon-/-
+  - 後方腱板：Hornblower's-/-
   - 上腕二頭筋長頭腱：Speed-/- Yergason-/-
   - 凍結肩/拘縮：ER制限-/+ End feel（firm/capsular）-/+
   - AC関節：Cross-/-
   - 前方不安定性：App-/- Relocation-/- Sulcus-/-
-  - 後方不安定性：Jerk-/- Posterior drawer-/-
+  - 後方不安定性（詳細）：Jerk-/- Posterior apprehension-/- Posterior drawer-/-
   - SC関節：SC stress-/-
   - 関節唇/その他：Clunk-/- O'Brien-/- Crank-/-
 
@@ -187,6 +189,66 @@
 
 ---
 
+### 15. Bear hug test（ベアハグテスト）
+
+**目的**：肩甲下筋（subscapularis）上部線維の断裂・機能不全を評価する。Lift-off testが困難な内旋拘縮例に特に有用。  
+**肢位**：座位または立位、患側の手掌を反対側の肩に当てた肢位（熊を抱きしめるような姿勢）。  
+**方法**：患者に手掌を反対側の肩に密着させ保持するよう指示し、検者が肘を下方・外旋方向に引き離そうとする。  
+**陽性**：手掌が肩から離れてしまう、または著明な筋力低下が生じる。  
+**示唆**：肩甲下筋上部（upper subscapularis）断裂。感度60%、特異度92%、LR+7.5。
+
+---
+
+### 16. Belly press test（ベリープレステスト）
+
+**目的**：肩甲下筋（subscapularis）下部線維の機能を評価する。Lift-off testが内旋拘縮で施行不能な際の代替テスト。  
+**肢位**：座位または立位、患側の手掌を腹部に当て、肘を体幹側方へ張り出した肢位。  
+**方法**：患者に手掌を腹部に押し付けるよう指示し、肘の位置（体幹側方）を維持させる。  
+**陽性**：手掌で腹部を押す力が弱く、維持するために肘が前方へ倒れ込む（wrist flexion to maintain pressure）。  
+**示唆**：肩甲下筋下部断裂。肘が落ちる・手首が屈曲して補償する場合は陽性とみなす。
+
+---
+
+### 17. Napoleon test（ナポレオンテスト）
+
+**目的**：肩甲下筋（subscapularis）下部の機能を評価する（Belly press testの変法）。  
+**肢位**：座位または立位、Belly press testと同じ肢位。  
+**方法**：手掌を腹部に当てて内旋力を発揮させ、手首の屈曲角度で肩甲下筋機能を分類する。  
+**陽性**：①Positive（手首屈曲90°以上）、②Intermediate（30〜90°屈曲）、③Negative（手首直線位で押せる）に分類する。  
+**示唆**：陽性（90°以上屈曲）は肩甲下筋下部の重大断裂を示唆。Belly press testよりグレーディングが可能。
+
+---
+
+### 18. Hornblower's sign（ホーンブロワーサイン）
+
+**目的**：小円筋（teres minor）の機能不全・断裂を評価する。  
+**肢位**：座位または立位。  
+**方法**：患者に肩関節外転90°・肘屈曲90°（ホルンを吹く姿勢）から手を口元へ持ってくるよう（外旋）指示する。  
+**陽性**：外旋ができず、肘を上方に持ち上げてしまう（代償運動が出現する）。  
+**示唆**：小円筋（teres minor）断裂。感度100%、特異度93%。後上方腱板損傷（棘下筋＋小円筋）に特有の所見。
+
+---
+
+### 19. Jerk test（ジャークテスト）
+
+**目的**：肩関節後方不安定性（posterior instability）を評価する。  
+**肢位**：座位または立位、肩関節前方挙上90°・内旋・肘屈曲90°。  
+**方法**：検者が肘を把持し上腕骨軸方向に後方圧迫を加えながら水平内転させる。  
+**陽性**：後方への脱臼感（clunk）または亜脱臼感が誘発され、外転に戻す際に整復感が生じる。  
+**示唆**：後方関節唇（posterior labrum）損傷、後方不安定性。Posterior apprehension testと組み合わせて感度・特異度を補完する。
+
+---
+
+### 20. Posterior apprehension test（後方不安テスト）
+
+**目的**：後方不安定性（posterior instability）を評価する（Jerk testの補完テスト）。  
+**肢位**：仰臥位または座位、肩関節前方挙上90°・内旋・水平内転位。  
+**方法**：検者が肘を把持し上腕骨を後方方向へ押し込む。  
+**陽性**：後方に脱臼しそうな不安感（apprehension）または疼痛が誘発される。  
+**示唆**：後方関節包・後方関節唇損傷、反復性後方脱臼。疼痛のみでは不安定性の証拠として弱い。
+
+---
+
 ## 参考文献（特殊テストの診断精度）
 
 | テスト | 感度 | 特異度 | LR+ | 出典 |
@@ -198,6 +260,8 @@
 | Speed's test（上腕二頭筋長頭腱炎） | 32% | 75% | 1.3 | Holtby R, Razmjou H. J Shoulder Elbow Surg 2004 |
 | Yergason's test（上腕二頭筋長頭腱炎） | 43% | 79% | 2.0 | Holtby R, Razmjou H. J Shoulder Elbow Surg 2004 |
 | O'Brien's test（SLAP） | 38% | 61% | 1.0 | Hegedus EJ et al. Br J Sports Med 2012 |
+| Bear hug test（肩甲下筋断裂） | 60% | 92% | 7.5 | Barth JR et al. Am J Sports Med 2006 |
+| Hornblower's sign（小円筋断裂） | 100% | 93% | — | Walch G et al. J Shoulder Elbow Surg 1998 |
 
 [^1]: Hegedus EJ, et al. Physical examination tests of the shoulder: a systematic review with meta-analysis of individual tests. Br J Sports Med. 2008;42(2):80-92. https://pubmed.ncbi.nlm.nih.gov/17720798/
 [^2]: Hegedus EJ, et al. Which physical examination tests provide clinicians with the most value when examining the shoulder? Update of a systematic review with meta-analysis of individual tests. Br J Sports Med. 2012;46(14):964-978. https://pubmed.ncbi.nlm.nih.gov/22773322/

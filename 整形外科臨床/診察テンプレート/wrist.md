@@ -13,6 +13,7 @@
   - TFCC/尺側手関節痛：Ulnocarpal stress-/- Fovea sign-/- Press test-/-
   - DRUJ：Piano key-/- DRUJ ballottement-/-
   - SL損傷：Watson（scaphoid shift）-/-
+  - LT損傷：LT ballottement（Reagan）-/- LT shear（Kleinman）-/-
   - ECU腱：ECU synergy test-/- ECU subluxation-/-（必要時）
 
 ## 略語一覧
@@ -123,6 +124,36 @@
 
 ---
 
+### 10. Lunotriquetral ballottement test（LT ballottement / Reagan test）
+
+**目的**：月状三角骨間靭帯（LT ligament: lunotriquetral ligament）の損傷を評価する。  
+**肢位**：座位、前腕中間位。  
+**方法**：検者が一方の手の母指と示指で月状骨（lunate）を、他方の手の母指と示指で三角骨（triquetrum）を把持し、背掌方向に互い違いにballottement（動揺）させる。  
+**陽性**：月状骨と三角骨の間で疼痛・異常可動性・軋轢感が誘発される。  
+**示唆**：LT靭帯損傷。感度64%、特異度44%（LT shear testと組み合わせて精度向上）。尺側手根部痛の鑑別において重要。
+
+---
+
+### 11. Lunotriquetral shear test（Kleinman shear test / LT shear test）
+
+**目的**：LT靭帯損傷を評価する（Reagan testの補完テスト）。  
+**肢位**：座位、前腕中間位・手関節軽度尺屈位。  
+**方法**：検者が一方の母指を豆状骨（pisiform）に当て前方（掌側）から三角骨を押し上げ、他方の母指を月状骨背側に当てて月状骨を前方へ押す。月状三角骨間に剪断力を加える。  
+**陽性**：LT関節部（尺側手根背側）に疼痛・異常可動性が誘発される。  
+**示唆**：LT靭帯損傷。Reagan testより剪断方向のストレスを直接加えるため、より特異的とされる。
+
+---
+
+### 12. ECU synergy test（ECU協調テスト）
+
+**目的**：尺側手根伸筋（ECU: extensor carpi ulnaris）腱の不安定性（亜脱臼）を評価する。  
+**肢位**：座位、前腕回外・手関節尺屈位。  
+**方法**：検者が前腕を回外位に保ちながら患者に手関節を尺屈・掌屈させる（ECU腱が最大張力を受ける方向）。腱の走行（尺骨茎状突起尺側の溝）を触診しながら確認する。  
+**陽性**：ECU腱が尺骨溝から背側へ脱出する・snapping感・疼痛が誘発される。  
+**示唆**：ECU腱不安定性（ECU tendon subluxation）。前腕回外・手関節尺屈動作で症状が出る場合は手術（腱鞘形成術）を考慮する。
+
+---
+
 ## 参考文献（特殊テストの診断精度）
 
 | テスト | 感度 | 特異度 | LR+ | 出典 |
@@ -133,6 +164,7 @@
 | Finkelstein（De Quervain） | 84% | 96–100% | 21 | Goubau JF et al. J Hand Surg Eur 2014; PMC6103758 |
 | Fovea sign（TFCC foveal損傷） | 89–95% | 48–87% | 1.7–7.3 | Tay SC et al. J Hand Surg Am 2007 |
 | Watson test（SL損傷） | 50–66% | 62% | 1.6 | Esteban-Feliu I et al. J Clin Med 2022; PMC9656589 |
+| LT ballottement（LT靭帯損傷） | 64% | 44% | — | Reagan DS et al. J Hand Surg Am 1984 |
 
 [^1]: Fowler JR, et al. Sensitivity and Specificity of Examination Maneuvers for Carpal Tunnel Syndrome: A Meta-Analysis. Cureus. 2023;15(8):e43944. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10446104/
 [^2]: Goubau JF, et al. Finkelstein's test is superior to Eichhoff's test in the investigation of de Quervain's disease. J Hand Surg Eur. 2014;39(8):807-812. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6103758/

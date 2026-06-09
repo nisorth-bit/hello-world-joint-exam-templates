@@ -13,6 +13,8 @@
   - 神経根症：SLR-/- Bragard-/- CrossSLR-/- FNST-/-（L2-4）
   - 神経根症補助：Slump-/-
   - 椎間関節/後方要素：Kemp-/-
+  - 分離症/すべり症：Stork（single-leg hyperextension）-/-
+  - 非器質性サイン：Waddell signs-/-（慢性腰痛・心因性鑑別）
   - 仙腸関節：FABER-/-（必要時）Gaenslen-/- Thigh thrust-/-（必要時）
 
 ## 略語一覧
@@ -119,6 +121,31 @@
 
 ---
 
+### 9. Stork test（ストークテスト / 片脚過伸展テスト）
+
+**目的**：腰椎分離症（spondylolysis）および腰椎すべり症（spondylolisthesis）のスクリーニングを行う。後方要素（椎弓峡部：pars interarticularis）へのストレスを評価する。  
+**肢位**：立位、片脚立ち。  
+**方法**：患者が片脚立ちの状態で腰椎を後方伸展させる。左右それぞれで施行する。  
+**陽性**：片脚立ち伸展により同側腰部〜殿部に疼痛が誘発される。  
+**示唆**：腰椎分離症（pars interarticularis stress reaction）、腰椎すべり症。感度17〜50%、特異度72〜87%と感度は低いが、若年スポーツ選手の腰痛では必ず確認する。
+
+---
+
+### 10. Waddell signs（ワデルサイン）
+
+**目的**：非器質性（non-organic）腰痛の鑑別。心理社会的因子または機能性腰痛を示す5徴候を評価する。  
+**肢位**：各テストにより異なる。  
+**方法**：以下の5徴候を系統的に評価する。  
+**陽性**：各徴候の評価基準は以下の通り：  
+①表在性圧痛（Superficial tenderness）：皮膚をつまんだだけで広範な圧痛を訴える；  
+②軸圧・回旋による疼痛（Simulation tests）：頭頂部への軸圧や体幹一体回旋（腰椎は動かない動作）で腰痛を訴える；  
+③散漫な陽性テスト（Distraction）：仰臥位SLR陽性でも座位での同等の操作では痛みを訴えない；  
+④神経解剖学的に説明できない症状分布（Regional disturbances）：非皮節性の広範な感覚障害・筋力低下；  
+⑤過剰反応（Overreaction）：疼痛刺激に対し不均衡な言語・表情・姿勢反応を示す。  
+**示唆**：3/5以上陽性で非器質性因子（心理社会的問題）を疑う。3項目以上陽性でLR+5.5。器質性疾患の除外後に評価する。
+
+---
+
 ## 参考文献（特殊テストの診断精度）
 
 | テスト | 感度 | 特異度 | LR+ | 出典 |
@@ -127,6 +154,8 @@
 | Cross SLR（椎間板ヘルニア） | 23–42% | 85–100% | 2.8–10 | van der Windt DA et al. BJGP 2010 |
 | Bragard sign（L4/5・L5/S1） | 60% | 75% | 2.4 | Majlesi J et al. J Clin Rheumatol 2008 |
 | FNST（L2–L4神経根症） | 84% | 83% | 4.9 | Estridge MN et al. J Neurosurg 1982 |
+| Stork test（腰椎分離症） | 17–50% | 72–87% | — | Masci L et al. Br J Sports Med 2006 |
+| Waddell signs（非器質性腰痛） | — | — | LR+5.5（3項目以上） | Waddell G et al. Spine 1980 |
 
 [^1]: Deville WL, et al. The test of Lasègue: systematic review of the accuracy in diagnosing herniated discs. Spine. 2000;25(9):1140-1147. https://pubmed.ncbi.nlm.nih.gov/23220802/
 [^2]: Majlesi J, et al. The sensitivity and specificity of the Slump and the Straight Leg Raising tests in patients with lumbar disc herniation. J Clin Rheumatol. 2008;14(2):87-91.
