@@ -12,7 +12,8 @@
   - FAI/関節唇：FADIR（Impingement）-/- FABER-/- Drehmann-/-
   - 屈曲拘縮：Thomas-/-
   - ITB：Ober-/-
-  - 梨状筋：Piriformis-/-
+  - 梨状筋：Piriformis-/- FAIR-/- Pace-/- Freiberg-/-
+  - 臼蓋形成不全/不安定性：Anterior apprehension-/- Lateral instability-/- PART-/-（必要時）
   - SIJ：Gaenslen-/- Thigh thrust-/-（必要時）
 
 ## 略語一覧
@@ -136,6 +137,70 @@
 
 ---
 
+## 臼蓋形成不全・不安定性テスト 詳細
+
+### 11. Anterior apprehension test（前方不安テスト / 過伸展外旋テスト）
+
+**目的**：臼蓋前方被覆不足（anterior undercoverage）による股関節前方不安定性を評価する。  
+**肢位**：仰臥位、検査台の端に患側臀部を置く。  
+**方法**：検者が患側股関節を伸展・外転・外旋（hyperextension-ER）の複合肢位に誘導する。  
+**陽性**：鼠径部〜前方股関節の疼痛、または「ずれそうな」不安感（apprehension）が誘発される。  
+**示唆**：臼蓋前方形成不全、前方不安定性。感度59〜100%・特異度100%と報告されており、臼蓋形成不全のスクリーニングに有用[^4]。
+
+---
+
+### 12. Lateral hip instability test（外側股関節不安定性テスト）
+
+**目的**：臼蓋外側・後外側被覆不足（lateral/posterolateral undercoverage）を評価する。  
+**肢位**：仰臥位。  
+**方法**：患側股関節を最大内転位とし、大腿軸方向（近位方向）に圧迫力を加える。  
+**陽性**：鼠径部〜外側股関節の深部痛が誘発される。  
+**示唆**：臼蓋外側形成不全、境界型形成不全（borderline dysplasia）。感度63〜68%・特異度87〜96%（Wettstein 2025, PMC12221240）[^5]。X線でCE角（Center-Edge angle）の評価と合わせて判断する。
+
+---
+
+### 13. PART（Prone Apprehension Relocation Test）（腹臥位不安リロケーションテスト）
+
+**目的**：前方股関節不安定性、特に「occult dysplasia（隠れた形成不全）」を評価する。  
+**肢位**：腹臥位、膝関節90°屈曲。  
+**方法**：股関節伸展位で外旋させ前方不安を誘発し、次に大腿骨頭を後方に押さえた状態（relocation）で再度外旋させ症状の変化を確認する。  
+**陽性**：外旋で前方痛が誘発され、後方圧迫（relocation）により疼痛が消失または軽減する。  
+**示唆**：前方股関節不安定性（anterior hip instability）、臼蓋前方形成不全。X線で正常でも陽性となる「occult dysplasia」の検出に有用[^6]。
+
+---
+
+## 梨状筋症候群テスト 詳細
+
+### 14. FAIR test（Flexion Adduction Internal Rotation test）
+
+**目的**：梨状筋（piriformis muscle）による坐骨神経（sciatic nerve）への圧迫・刺激を評価する。  
+**肢位**：仰臥位または側臥位、患側股関節を屈曲・内転・内旋させた肢位。  
+**方法**：患者が股関節を屈曲・内転・内旋位に保持し、検者がその状態から外転・外旋方向への抵抗を加えながら梨状筋を伸張する。  
+**陽性**：殿部〜坐骨神経走行に沿った放散痛・しびれが誘発される。  
+**示唆**：梨状筋症候群。感度88.1%・特異度83.2%と報告されており、梨状筋症候群の診断精度が最も高いテスト[^7]。腰椎由来の坐骨神経痛との鑑別に有用。
+
+---
+
+### 15. Pace sign（ペイスサイン）
+
+**目的**：梨状筋の緊張・坐骨神経への圧迫を評価する。  
+**肢位**：座位、股関節・膝関節90°屈曲。  
+**方法**：患者が股関節外転・外旋に力を入れ、検者がその方向への抵抗を加える（等尺性収縮）。  
+**陽性**：殿部〜坐骨神経走行に沿った痛み・しびれ、または殿部深部の疼痛が誘発される。  
+**示唆**：梨状筋症候群。梨状筋症候群患者の約56〜74%で陽性とされる[^8]。FAIR testと組み合わせて診断精度を高める。
+
+---
+
+### 16. Freiberg sign（フライバーグサイン）
+
+**目的**：梨状筋の短縮・過緊張による坐骨神経圧迫を評価する。  
+**肢位**：仰臥位または座位。  
+**方法**：股関節伸展位で、検者が他動的に股関節を内旋させる。梨状筋が伸張される。  
+**陽性**：殿部〜坐骨神経走行に沿った疼痛・放散痛が誘発される。  
+**示唆**：梨状筋症候群。梨状筋症候群の56%程度で陽性とされる[^8]。FAIR test・Pace signとクラスター評価することが推奨される。
+
+---
+
 ## 参考文献（特殊テストの診断精度）
 
 | テスト | 感度 | 特異度 | LR+ | 出典 |
@@ -144,7 +209,17 @@
 | FABER（関節唇損傷） | 41–82% | 18–100% | — | Dhillon MS et al. Arthroscopy Sports Med Rehab 2025 |
 | Trendelenburg test（中殿筋/股関節内疾患） | 37–55% | 70–81% | 1.8 | Stafford GH, Villar RN. Hip Int 2011 |
 | Thomas test（屈曲拘縮） | 32% | 57% | 0.7 | Harvey D. Physiotherapy 1998 |
+| Anterior apprehension test（臼蓋前方形成不全） | 59–100% | 100% | — | Stern BZ et al. J Hip Preserv Surg 2020; PMC7605765 |
+| Lateral hip instability test（臼蓋外側形成不全） | 63–68% | 87–96% | — | Wettstein M et al. J Exp Orthop 2025; PMC12221240 |
+| FAIR test（梨状筋症候群） | 88.1% | 83.2% | 5.2 | Fishman LM et al. Am J Phys Med Rehabil 2002 |
+| Pace sign（梨状筋症候群） | 56–74% | — | — | Boyajian-O'Neill LA et al. J Am Osteopath Assoc 2008 |
+| Freiberg sign（梨状筋症候群） | 56% | — | — | Boyajian-O'Neill LA et al. J Am Osteopath Assoc 2008 |
 
 [^1]: Dhillon MS, et al. Sensitivity and Specificity for Physical Examination Tests in Diagnosing Prearthritic Intra-Articular Hip Pathology Are Highly Variable: A Systematic Review. Arthrosc Sports Med Rehabil. 2025. https://arthroscopyjournals.onlinelibrary.wiley.com/doi/10.1016/j.asmr.2025.101117
 [^2]: Leibold MR, et al. FABER combined with FADIR increases sensitivity for acetabular labral tears. Orthopedics. 2008;31(12).
 [^3]: Harvey D. Assessment of the flexibility of elite athletes using the modified Thomas test. Br J Sports Med. 1998;32(1):68-70.
+[^4]: Stern BZ, et al. Radiographic and clinical characteristics associated with a positive PART (Prone Apprehension Relocation Test). J Hip Preserv Surg. 2020;7(2):288-295. https://pmc.ncbi.nlm.nih.gov/articles/PMC7605765/
+[^5]: Wettstein M, et al. The lateral hip instability test: Diagnostic accuracy for lateral or posterolateral femoral head undercoverage. J Exp Orthop. 2025. https://pmc.ncbi.nlm.nih.gov/articles/PMC12221240/
+[^6]: Interrater Reliability of the Prone Apprehension Relocation Test. PMC8461127. https://pmc.ncbi.nlm.nih.gov/articles/PMC8461127/
+[^7]: Fishman LM, et al. Piriformis syndrome: diagnosis, treatment, and outcome—a 10-year study. Arch Phys Med Rehabil. 2002;83(3):295-301.
+[^8]: Boyajian-O'Neill LA, et al. Diagnosis and management of piriformis syndrome: an osteopathic approach. J Am Osteopath Assoc. 2008;108(11):657-664.
